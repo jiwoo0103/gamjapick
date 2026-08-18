@@ -22,6 +22,7 @@ GamjaPick은 사람이 카드뉴스 주제를 찾고, 한 장의 4:5 카드뉴�
 | 한국경제 | 사회·테크 많이 본 뉴스 TOP 5 | 구현 완료 |
 | 경향신문 | 지금 많이 보는 기사, 이슈 기사 업데이트순 | 구현 완료 |
 | MBC 뉴스 | 엠빅 X 14F, 많이 본 뉴스 포털·SNS | 구현 완료 |
+| Hacker News | 공식 Best Stories 상위 10개, 영문 원문 보존 | 구현 완료 |
 
 `data/current.json`에는 최신 목록의 항목, `data/recent.json`에는 최근 48시간의 고유 항목을 저장한다. 각 항목은 `firstSeenAt`, `lastSeenAt`, `seenCount`, `consecutiveCount`, `isCurrent`, 현재 metrics, delta, 최대 48개 history를 가진다. 동일 원문이 한 source의 복수 목록에 있으면 `placements`에 노출 위치를 병합한다.
 
@@ -29,9 +30,9 @@ GitHub Actions는 30분 cron과 `workflow_dispatch`로 `npm run collect`를 실�
 
 ### 대시보드 완료 기준
 
-- 현재 목록·최근 48시간 탭과 source 필터 제공
+- 현재 목록·최근 48시간 탭, 국내/해외·출처 필터 제공
 - 출처, 목록 유형, 카테고리, 순위, 포착 지속성, 공개 지표와 변화량 표시
-- 원문으로 이동하고 제목·출처를 Card Editor로 전달 가능
+- 원문으로 이동하고 링크 복사 가능
 - 한 목록 실패가 다른 source 데이터 사용을 막지 않음
 
 ## Stage 2 — Card Editor
@@ -41,7 +42,6 @@ GitHub Actions는 30분 cron과 `workflow_dispatch`로 `npm run collect`를 실�
 - 로컬 이미지 업로드·드래그 앤 드롭·클립보드 붙여넣기
 - 제목·부제·출처의 폰트, 크기, 굵기, 줄간격, 정렬, 단어 강조 색상, 위치 조절
 - 이미지 확대·이동, 하단 그라데이션 조절
-- Topic Radar에서 제목·출처 전달
 - 브라우저 Canvas로 PNG 저장
 
 이미지와 편집 상태는 브라우저 안에만 남으며, 서버 이미지 저장·계정·DB는 사용하지 않는다.

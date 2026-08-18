@@ -4,6 +4,7 @@ import { finalizeTopics, runCollectors, type Collector } from "./collector";
 import { parseDogdripPopularHtml, type DogdripList } from "./collectors/dogdrip";
 import { parseDongaTrendHtml, type DongaList } from "./collectors/donga";
 import { parseHankyungMostReadHtml, type HankyungList } from "./collectors/hankyung";
+import { parseHackerNewsStories } from "./collectors/hackernews";
 import { parseKhanIssueHtml, parseKhanRealtimePayload } from "./collectors/khan";
 import { parseMbcOriginalPayload, parseMbcRankingPayload } from "./collectors/mbc";
 
@@ -50,4 +51,9 @@ test("MBC collector uses the official public portal and SNS ranking payloads", (
   const ranking = parseMbcRankingPayload({ Data: [{ Link: "/news/article/1234567_00000.html", Title: "포털 인기 기사" }] }, "mbc-portal", "MBC 많이 본 뉴스 · 포털");
   const original = parseMbcOriginalPayload({ Data: [{ AId: "6555082", Link: "/original/mbig/6555082_29041.html", Title: "엠빅 콘텐츠", StartDate: "2026-08-18 06:35" }] });
   assert.equal(ranking[0].placements[0].rankingType, "포털"); assert.equal(original[0].placements[0].category, "엠빅"); assert.equal(original[0].publishedAt, "2026-08-17T21:35:00.000Z");
+});
+
+test("Hacker News collector preserves the original title and available public metrics", () => {
+  const items = parseHackerNewsStories([{ id: 450001, type: "story", title: "A story in English", score: 125, descendants: 24, time: 1_776_470_400 }]);
+  assert.equal(items.length, 1); assert.equal(items[0].title, "A story in English"); assert.equal(items[0].url, "https://news.ycombinator.com/item?id=450001"); assert.equal(items[0].metrics.likes, 125); assert.equal(items[0].metrics.comments, 24); assert.equal(items[0].publishedAt, "2026-04-18T00:00:00.000Z");
 });

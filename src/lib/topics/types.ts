@@ -1,4 +1,4 @@
-export const TOPIC_SOURCES = ["dogdrip", "donga", "hankyung", "khan", "mbc"] as const;
+export const TOPIC_SOURCES = ["dogdrip", "donga", "hankyung", "khan", "mbc", "hackernews"] as const;
 
 export type TopicSource = (typeof TOPIC_SOURCES)[number];
 

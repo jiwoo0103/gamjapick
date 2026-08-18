@@ -11,6 +11,11 @@ test("filters new collector sources", () => {
   const topics = [topic("one", "donga", 1, "2026-08-19T00:00:00.000Z"), topic("two", "mbc", 2, "2026-08-19T01:00:00.000Z")];
   assert.deepEqual(filterAndSortTopics(topics, "mbc", "recent").map((item) => item.id), ["mbc:two"]);
 });
+test("filters domestic and overseas sources separately", () => {
+  const topics = [topic("domestic", "mbc", 1, "2026-08-19T00:00:00.000Z"), topic("overseas", "hackernews", 1, "2026-08-19T01:00:00.000Z")];
+  assert.deepEqual(filterAndSortTopics(topics, "all", "recent", "domestic").map((item) => item.id), ["mbc:domestic"]);
+  assert.deepEqual(filterAndSortTopics(topics, "all", "recent", "overseas").map((item) => item.id), ["hackernews:overseas"]);
+});
 test("sorts by the best available rank and puts missing ranks last", () => {
   const topics = [topic("missing", "donga", null, "2026-08-19T02:00:00.000Z"), topic("second", "donga", 2, "2026-08-19T01:00:00.000Z"), topic("first", "donga", 1, "2026-08-19T00:00:00.000Z")];
   assert.deepEqual(filterAndSortTopics(topics, "all", "rank").map((item) => item.id), ["donga:first", "donga:second", "donga:missing"]);
