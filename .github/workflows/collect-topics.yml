@@ -72,5 +72,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/current.json data/recent.json
-          git commit -m "chore(data): update topic radar"
+          # The Pages dashboard fetches these JSON files from GitHub at runtime.
+          # Avoid spending a Pages build for each 30-minute data-only commit.
+          git commit -m "[CF-Pages-Skip] chore(data): update topic radar"
           git push

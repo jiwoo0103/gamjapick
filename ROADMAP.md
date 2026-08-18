@@ -269,7 +269,7 @@ Google Trends처럼 일반 게시글과 구조가 다른 source는 억지로 동
 
 ### 구현 상태 (2026-08-19)
 
-- Next.js 첫 화면은 collector를 실행하지 않고 `data/current.json`과 `data/recent.json`만 정적으로 읽는다.
+- Next.js 첫 화면은 collector를 실행하지 않는다. 정적 빌드에 포함된 `data/current.json`·`data/recent.json`을 fallback으로 사용하고, 브라우저에서는 GitHub `main`의 최신 JSON을 다시 읽는다.
 - `현재 인기`와 `최근 48시간` 탭, 6개 source 필터, 최근 발견·연속 포착·조회수/추천/댓글 변화 정렬을 제공한다.
 - 카드에는 source, 한국어 제목과 해외 원문, 게시/발견 시각, 현재 여부, 공개 지표와 변화량, 포착 횟수, 원문 링크를 표시한다.
 - Google Trends는 검색량과 그 변화량만 별도로 표시하며, 없는 지표는 만들지 않는다.

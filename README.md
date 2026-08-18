@@ -31,3 +31,7 @@ $env:XDG_CACHE_HOME = "$PWD\.argos-data\cache"
 ## 자동 수집
 
 GitHub Actions workflow는 30분마다 `npm run collect`를 실행하고 변경된 `data/current.json`·`data/recent.json`만 `main`에 자동 커밋합니다. Actions 탭에서 **Collect topic radar data**를 선택하면 `workflow_dispatch`로 수동 실행할 수 있습니다.
+
+## Cloudflare Pages 배포
+
+Cloudflare Pages에서는 **Next.js (Static HTML Export)** preset을 선택하고, production branch는 `main`, build command는 `npx next build`, build output directory는 `out`으로 설정합니다. 배포된 대시보드는 빌드에 포함된 JSON을 fallback으로 사용하고, 브라우저에서 GitHub `main`의 최신 JSON을 다시 읽습니다. 수집 워크플로우의 data-only 커밋은 `[CF-Pages-Skip]` 표식으로 Pages 빌드를 건너뜁니다.

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import {
   SOURCE_ACCENTS,
@@ -16,6 +16,8 @@ type TopicRadarProps = {
   recentTopics: TopicRecord[];
 };
 
+const GITHUB_DATA_ROOT = "https://raw.githubusercontent.com/jiwoo0103/gamjapick/main/data";
+
 const SORT_OPTIONS: Array<{ value: TopicSort; label: string }> = [
   { value: "recent", label: "최근 발견 순" },
   { value: "consecutive", label: "연속 포착 순" },
@@ -25,10 +27,34 @@ const SORT_OPTIONS: Array<{ value: TopicSort; label: string }> = [
 ];
 
 export function TopicRadar({ currentTopics, recentTopics }: TopicRadarProps) {
+  const [topicData, setTopicData] = useState({ current: currentTopics, recent: recentTopics });
+  const [isLatestData, setIsLatestData] = useState(false);
   const [tab, setTab] = useState<"current" | "recent">("current");
   const [source, setSource] = useState<SourceFilter>("all");
   const [sort, setSort] = useState<TopicSort>("recent");
-  const sourceTopics = tab === "current" ? currentTopics : recentTopics;
+
+  useEffect(() => {
+    let cancelled = false;
+
+    void Promise.all([
+      fetch(`${GITHUB_DATA_ROOT}/current.json`, { cache: "no-store" }),
+      fetch(`${GITHUB_DATA_ROOT}/recent.json`, { cache: "no-store" }),
+    ])
+      .then(async ([currentResponse, recentResponse]) => {
+        if (!currentResponse.ok || !recentResponse.ok) throw new Error("Latest topic data is unavailable.");
+        return Promise.all([currentResponse.json(), recentResponse.json()]);
+      })
+      .then(([current, recent]) => {
+        if (cancelled || !isTopicList(current) || !isTopicList(recent)) return;
+        setTopicData({ current, recent });
+        setIsLatestData(true);
+      })
+      .catch(() => undefined);
+
+    return () => { cancelled = true; };
+  }, []);
+
+  const sourceTopics = tab === "current" ? topicData.current : topicData.recent;
   const topics = useMemo(() => filterAndSortTopics(sourceTopics, source, sort), [sourceTopics, source, sort]);
 
   return (
@@ -44,8 +70,8 @@ export function TopicRadar({ currentTopics, recentTopics }: TopicRadarProps) {
               </p>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:min-w-72">
-              <Summary label="현재 인기" value={currentTopics.length} />
-              <Summary label="최근 48시간" value={recentTopics.length} />
+              <Summary label="현재 인기" value={topicData.current.length} />
+              <Summary label="최근 48시간" value={topicData.recent.length} />
             </div>
           </div>
         </header>
@@ -54,10 +80,10 @@ export function TopicRadar({ currentTopics, recentTopics }: TopicRadarProps) {
           <div className="flex flex-col gap-5 rounded-3xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div className="flex w-full rounded-2xl bg-stone-100 p-1 sm:w-fit" role="tablist" aria-label="목록 범위">
-                <TabButton active={tab === "current"} count={currentTopics.length} onClick={() => setTab("current")}>
+                <TabButton active={tab === "current"} count={topicData.current.length} onClick={() => setTab("current")}>
                   현재 인기
                 </TabButton>
-                <TabButton active={tab === "recent"} count={recentTopics.length} onClick={() => setTab("recent")}>
+                <TabButton active={tab === "recent"} count={topicData.recent.length} onClick={() => setTab("recent")}>
                   최근 48시간
                 </TabButton>
               </div>
@@ -85,7 +111,7 @@ export function TopicRadar({ currentTopics, recentTopics }: TopicRadarProps) {
 
           <div className="mt-5 flex items-center justify-between px-1 text-sm text-stone-500">
             <p><strong className="text-stone-900">{topics.length}</strong>개 항목</p>
-            <p>{tab === "current" ? "가장 최근 수집에서 인기 목록에 있던 항목" : "마지막 발견이 48시간 이내인 항목"}</p>
+            <p>{isLatestData ? "GitHub의 최신 수집 데이터" : tab === "current" ? "가장 최근 빌드에 포함된 인기 목록" : "최근 빌드에 포함된 48시간 항목"}</p>
           </div>
 
           {topics.length > 0 ? (
@@ -101,6 +127,12 @@ export function TopicRadar({ currentTopics, recentTopics }: TopicRadarProps) {
       </div>
     </main>
   );
+}
+
+function isTopicList(value: unknown): value is TopicRecord[] {
+  return Array.isArray(value) && value.every((topic) => (
+    typeof topic === "object" && topic !== null && "id" in topic && "source" in topic && "url" in topic
+  ));
 }
 
 function Summary({ label, value }: { label: string; value: number }) {
