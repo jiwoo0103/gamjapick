@@ -5,7 +5,7 @@ import { fetchPublicText } from "../fetch";
 import { cleanText, emptyMetrics, parseCount, sourceIdFromUrl, toAbsoluteUrl, toIsoDate } from "../parsers";
 import type { TopicDraft } from "../types";
 
-const URL = "https://gall.dcinside.com/board/lists?id=hit";
+const URL = "https://gall.dcinside.com/board/lists?id=dcbest";
 
 export function parseDcInsideHtml(html: string): TopicDraft[] {
   const $ = load(html);

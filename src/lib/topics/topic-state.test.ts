@@ -80,3 +80,14 @@ test("keeps prior current items when that source collector fails", () => {
   assert.equal(next.current[0].id, "dcinside:1");
   assert.equal(next.current[0].consecutiveCount, 1);
 });
+
+test("removes records collected from the retired DCInside HIT target", () => {
+  const legacy = {
+    ...mergeTopicState([], [success([topic("17784", 10)])], start).recent[0],
+    url: "https://gall.dcinside.com/board/view/?id=hit&no=17784",
+  };
+  const current = topic("455190", 20);
+  const next = mergeTopicState([legacy], [success([current])], "2026-08-19T00:30:00.000Z");
+
+  assert.deepEqual(next.recent.map((record) => record.id), [current.id]);
+});

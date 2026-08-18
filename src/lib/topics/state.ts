@@ -35,10 +35,21 @@ export function mergeTopicState(
 
   const cutoff = new Date(collectedAt).getTime() - RECENT_WINDOW_MS;
   const recent = [...records.values()]
+    .filter((record) => !isLegacyDcHitRecord(record))
     .filter((record) => Date.parse(record.lastSeenAt) >= cutoff)
     .sort((left, right) => Date.parse(right.lastSeenAt) - Date.parse(left.lastSeenAt));
 
   return { current: recent.filter((record) => record.isCurrent), recent };
+}
+
+function isLegacyDcHitRecord(record: TopicRecord): boolean {
+  if (record.source !== "dcinside") return false;
+
+  try {
+    return new URL(record.url).searchParams.get("id") === "hit";
+  } catch {
+    return false;
+  }
 }
 
 function mergeTopicRecord(previous: TopicRecord | undefined, topic: CollectedTopic, collectedAt: string): TopicRecord {

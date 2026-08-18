@@ -6,16 +6,22 @@ import { parseGoogleTrendsRss } from "./collectors/google-trends";
 import { parseTheQooHtml } from "./collectors/theqoo";
 import { emptyMetrics } from "./parsers";
 
-test("TheQoo parser ignores categories and notices", () => {
+test("TheQoo parser keeps only post links, parses comments, and resolves today's time in KST", () => {
   const topics = parseTheQooHtml(`
     <table>
       <tr class="notice"><td><a href="/hot/123">공지</a></td></tr>
       <tr><td><a href="/hot/category/24788">이슈</a></td></tr>
-      <tr><td><a href="/hot/456">실제 인기 글</a></td></tr>
+      <tr>
+        <td class="title"><a href="/hot/456">실제 인기 글</a><a class="replyNum" href="/hot/456#456_comment">12</a></td>
+        <td class="time">00:12</td><td class="m_no">1,234</td>
+      </tr>
     </table>
-  `);
+  `, new Date("2026-08-18T15:47:00.000Z"));
 
   assert.deepEqual(topics.map((topic) => topic.sourceId), ["456"]);
+  assert.equal(topics[0].metrics.comments, 12);
+  assert.equal(topics[0].metrics.views, 1_234);
+  assert.equal(topics[0].publishedAt, "2026-08-18T15:12:00.000Z");
 });
 
 test("Google Trends parser preserves article URL and public search volume", () => {

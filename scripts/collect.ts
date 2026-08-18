@@ -1,3 +1,5 @@
+import path from "node:path";
+
 import { runCollectors } from "../src/lib/topics/collector";
 import { collectors } from "../src/lib/topics/collectors";
 import { mergeTopicState } from "../src/lib/topics/state";
@@ -27,4 +29,3 @@ async function main() {
 }
 
 void main();
-import path from "node:path";
