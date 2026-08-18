@@ -1,0 +1,76 @@
+name: Collect topic radar data
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-topic-radar-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Restore local translation runtime
+        id: argos-cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            .venv
+            .argos-data
+          key: ${{ runner.os }}-argos-${{ hashFiles('scripts/translate/requirements.txt') }}
+
+      - name: Install translation runtime and model
+        if: steps.argos-cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/python -m pip install -r scripts/translate/requirements.txt
+          export XDG_DATA_HOME="$GITHUB_WORKSPACE/.argos-data/data"
+          export XDG_CONFIG_HOME="$GITHUB_WORKSPACE/.argos-data/config"
+          export XDG_CACHE_HOME="$GITHUB_WORKSPACE/.argos-data/cache"
+          .venv/bin/python scripts/translate/install-argos-model.py
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Collect topics
+        run: npm run collect
+
+      - name: Commit updated topic data
+        shell: bash
+        run: |
+          if git diff --quiet -- data/current.json data/recent.json; then
+            echo "No topic data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/current.json data/recent.json
+          git commit -m "chore(data): update topic radar"
+          git push
