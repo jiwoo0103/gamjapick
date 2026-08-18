@@ -12,12 +12,26 @@ export class CollectorRequestError extends Error {
 }
 
 export async function fetchPublicText(url: string): Promise<string> {
+  return (await fetchPublicResponse(url)).text();
+}
+
+export async function fetchPublicJson<T>(url: string, init?: RequestInit): Promise<T> {
+  const response = await fetchPublicResponse(url, init);
+  try {
+    return await response.json() as T;
+  } catch {
+    throw new CollectorRequestError(url, response.status, "Response was not valid JSON.");
+  }
+}
+
+async function fetchPublicResponse(url: string, init?: RequestInit): Promise<Response> {
   for (let attempt = 0; attempt < 2; attempt += 1) {
     let response: Response;
 
     try {
       response = await fetch(url, {
-        headers: { "User-Agent": USER_AGENT },
+        ...init,
+        headers: { "User-Agent": USER_AGENT, ...init?.headers },
         signal: AbortSignal.timeout(15_000),
       });
     } catch (error) {
@@ -29,7 +43,7 @@ export async function fetchPublicText(url: string): Promise<string> {
       throw new CollectorRequestError(url, null, `Request failed: ${message}`);
     }
 
-    if (response.ok) return response.text();
+    if (response.ok) return response;
     if (response.status === 429 && attempt === 0) {
       await backoff();
       continue;

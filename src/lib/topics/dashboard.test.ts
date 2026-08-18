@@ -1,70 +1,22 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-
-import { filterAndSortTopics } from "./dashboard";
+import { bestRank, filterAndSortTopics } from "./dashboard";
 import type { TopicRecord } from "./types";
 
-function topic(
-  id: string,
-  source: TopicRecord["source"],
-  lastSeenAt: string,
-  deltaViews: number | null,
-  consecutiveCount = 1,
-  delta: Partial<TopicRecord["delta"]> = {},
-): TopicRecord {
-  return {
-    id: `${source}:${id}`,
-    source,
-    sourceId: id,
-    url: `https://example.com/${id}`,
-    title: id,
-    titleOriginal: null,
-    titleKo: null,
-    publishedAt: null,
-    publishedAtLabel: null,
-    metrics: { views: null, likes: null, comments: null, searchVolume: null },
-    collectedAt: lastSeenAt,
-    firstSeenAt: lastSeenAt,
-    lastSeenAt,
-    seenCount: consecutiveCount,
-    consecutiveCount,
-    isCurrent: true,
-    delta: { views: deltaViews, likes: null, comments: null, searchVolume: null, ...delta },
-    history: [],
-  };
+function topic(id: string, source: TopicRecord["source"], rank: number | null, lastSeenAt: string, likes: number | null = null): TopicRecord {
+  return { id: `${source}:${id}`, source, sourceId: id, url: `https://example.com/${id}`, title: id, summary: null, publishedAt: null, publishedAtLabel: null, metrics: { likes: null, comments: null }, placements: [{ collectorId: `${source}-feed`, label: "목록", rankingType: "인기", rank, category: null }], collectedAt: lastSeenAt, firstSeenAt: lastSeenAt, lastSeenAt, seenCount: 1, consecutiveCount: 1, isCurrent: true, delta: { likes, comments: null }, history: [] };
 }
 
-test("filters topics by source", () => {
-  const topics = [
-    topic("one", "dcinside", "2026-08-19T00:00:00.000Z", 3),
-    topic("two", "reddit", "2026-08-19T01:00:00.000Z", 8),
-  ];
-
-  assert.deepEqual(filterAndSortTopics(topics, "reddit", "recent").map((item) => item.id), ["reddit:two"]);
+test("filters new collector sources", () => {
+  const topics = [topic("one", "donga", 1, "2026-08-19T00:00:00.000Z"), topic("two", "mbc", 2, "2026-08-19T01:00:00.000Z")];
+  assert.deepEqual(filterAndSortTopics(topics, "mbc", "recent").map((item) => item.id), ["mbc:two"]);
 });
-
-test("places missing metric deltas after available values", () => {
-  const topics = [
-    topic("missing", "dcinside", "2026-08-19T02:00:00.000Z", null),
-    topic("higher", "dcinside", "2026-08-19T00:00:00.000Z", 8),
-    topic("lower", "dcinside", "2026-08-19T01:00:00.000Z", 3),
-  ];
-
-  assert.deepEqual(filterAndSortTopics(topics, "all", "views").map((item) => item.id), [
-    "dcinside:higher",
-    "dcinside:lower",
-    "dcinside:missing",
-  ]);
+test("sorts by the best available rank and puts missing ranks last", () => {
+  const topics = [topic("missing", "donga", null, "2026-08-19T02:00:00.000Z"), topic("second", "donga", 2, "2026-08-19T01:00:00.000Z"), topic("first", "donga", 1, "2026-08-19T00:00:00.000Z")];
+  assert.deepEqual(filterAndSortTopics(topics, "all", "rank").map((item) => item.id), ["donga:first", "donga:second", "donga:missing"]);
+  assert.equal(bestRank(topics[0]), null);
 });
-
-test("sorts by every dashboard metric and uses recent discovery as the tie breaker", () => {
-  const topics = [
-    topic("older", "dcinside", "2026-08-19T00:00:00.000Z", 2, 2, { likes: 2, comments: 4 }),
-    topic("newer", "dcinside", "2026-08-19T01:00:00.000Z", 1, 5, { likes: 7, comments: 3 }),
-  ];
-
-  assert.equal(filterAndSortTopics(topics, "all", "recent")[0].id, "dcinside:newer");
-  assert.equal(filterAndSortTopics(topics, "all", "consecutive")[0].id, "dcinside:newer");
-  assert.equal(filterAndSortTopics(topics, "all", "likes")[0].id, "dcinside:newer");
-  assert.equal(filterAndSortTopics(topics, "all", "comments")[0].id, "dcinside:older");
+test("keeps reaction-delta sorting for sources that expose it", () => {
+  const topics = [topic("low", "dogdrip", null, "2026-08-19T00:00:00.000Z", 1), topic("high", "dogdrip", null, "2026-08-19T01:00:00.000Z", 4)];
+  assert.deepEqual(filterAndSortTopics(topics, "all", "likes").map((item) => item.id), ["dogdrip:high", "dogdrip:low"]);
 });

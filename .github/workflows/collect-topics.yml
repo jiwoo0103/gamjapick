@@ -30,32 +30,6 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Restore local translation runtime
-        id: argos-cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            .venv
-            .argos-data
-          key: ${{ runner.os }}-argos-${{ hashFiles('scripts/translate/requirements.txt') }}
-
-      - name: Install translation runtime and model
-        if: steps.argos-cache.outputs.cache-hit != 'true'
-        shell: bash
-        run: |
-          python -m venv .venv
-          .venv/bin/python -m pip install --upgrade pip
-          .venv/bin/python -m pip install -r scripts/translate/requirements.txt
-          export XDG_DATA_HOME="$GITHUB_WORKSPACE/.argos-data/data"
-          export XDG_CONFIG_HOME="$GITHUB_WORKSPACE/.argos-data/config"
-          export XDG_CACHE_HOME="$GITHUB_WORKSPACE/.argos-data/cache"
-          .venv/bin/python scripts/translate/install-argos-model.py
-
       - name: Install Node.js dependencies
         run: npm ci
 

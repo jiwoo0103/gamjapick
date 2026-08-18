@@ -1,19 +1,19 @@
-export const TOPIC_SOURCES = [
-  "dcinside",
-  "fmkorea",
-  "theqoo",
-  "reddit",
-  "ndtv",
-  "google-trends",
-] as const;
+export const TOPIC_SOURCES = ["dogdrip", "donga", "hankyung", "khan", "mbc"] as const;
 
 export type TopicSource = (typeof TOPIC_SOURCES)[number];
 
 export type TopicMetrics = {
-  views: number | null;
   likes: number | null;
   comments: number | null;
-  searchVolume: number | null;
+};
+
+export type TopicPlacement = {
+  /** Stable identifier for the independently collected curated list. */
+  collectorId: string;
+  label: string;
+  rankingType: string;
+  rank: number | null;
+  category: string | null;
 };
 
 export type CollectedTopic = {
@@ -22,15 +22,16 @@ export type CollectedTopic = {
   sourceId: string;
   url: string;
   title: string;
-  titleOriginal: string | null;
-  titleKo: string | null;
+  summary: string | null;
   publishedAt: string | null;
   publishedAtLabel: string | null;
   metrics: TopicMetrics;
+  placements: TopicPlacement[];
   collectedAt: string;
 };
 
 export type CollectorSuccess = {
+  collectorId: string;
   source: TopicSource;
   status: "success";
   collectedAt: string;
@@ -38,6 +39,7 @@ export type CollectorSuccess = {
 };
 
 export type CollectorFailure = {
+  collectorId: string;
   source: TopicSource;
   status: "failed";
   collectedAt: string;
@@ -45,12 +47,12 @@ export type CollectorFailure = {
 };
 
 export type CollectorResult = CollectorSuccess | CollectorFailure;
-
 export type TopicMetricDelta = TopicMetrics;
 
 export type TopicMetricSnapshot = {
   observedAt: string;
   metrics: TopicMetrics;
+  placements: TopicPlacement[];
 };
 
 export type TopicRecord = CollectedTopic & {
@@ -63,7 +65,4 @@ export type TopicRecord = CollectedTopic & {
   history: TopicMetricSnapshot[];
 };
 
-export type TopicDraft = Omit<CollectedTopic, "id" | "collectedAt" | "title" | "titleKo"> & {
-  titleOriginal: string | null;
-  title: string;
-};
+export type TopicDraft = Omit<CollectedTopic, "id" | "collectedAt">;

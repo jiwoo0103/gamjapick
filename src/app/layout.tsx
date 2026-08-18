@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "GamjaPick",
-  description: "카드뉴스 주제 탐색을 위한 Topic Radar",
+  description: "카드뉴스 주제 탐색과 표지 편집을 위한 개인 도구",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

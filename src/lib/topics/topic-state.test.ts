@@ -1,93 +1,39 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-
 import { mergeTopicState } from "./state";
-import type { CollectedTopic, CollectorResult, TopicMetrics } from "./types";
+import type { CollectedTopic, CollectorResult } from "./types";
 
 const start = "2026-08-19T00:00:00.000Z";
-
-function metrics(views: number | null): TopicMetrics {
-  return { views, likes: null, comments: null, searchVolume: null };
+function topic(id: string, likes: number | null, collectorId = "donga-popular"): CollectedTopic {
+  return { id: `donga:${id}`, source: "donga", sourceId: id, url: `https://example.com/${id}`, title: `항목 ${id}`, summary: null, publishedAt: null, publishedAtLabel: null, metrics: { likes, comments: null }, placements: [{ collectorId, label: "동아 인기순", rankingType: "인기순", rank: 1, category: "종합" }], collectedAt: start };
 }
-
-function topic(id: string, views: number | null): CollectedTopic {
-  return {
-    id: `dcinside:${id}`,
-    source: "dcinside",
-    sourceId: id,
-    url: `https://example.com/${id}`,
-    title: `항목 ${id}`,
-    titleOriginal: null,
-    titleKo: null,
-    publishedAt: null,
-    publishedAtLabel: null,
-    metrics: metrics(views),
-    collectedAt: start,
-  };
-}
-
-function success(items: CollectedTopic[]): CollectorResult {
-  return { source: "dcinside", status: "success", collectedAt: start, items };
-}
+function success(items: CollectedTopic[], collectorId = "donga-popular"): CollectorResult { return { collectorId, source: "donga", status: "success", collectedAt: start, items }; }
 
 test("tracks first and consecutive appearances with metric deltas", () => {
   const first = mergeTopicState([], [success([topic("1", 10)])], start);
   const second = mergeTopicState(first.recent, [success([topic("1", 17)])], "2026-08-19T00:30:00.000Z");
-
-  assert.equal(second.recent[0].firstSeenAt, start);
-  assert.equal(second.recent[0].seenCount, 2);
-  assert.equal(second.recent[0].consecutiveCount, 2);
-  assert.equal(second.recent[0].delta.views, 7);
-  assert.equal(second.recent[0].history.length, 2);
+  assert.equal(second.recent[0].firstSeenAt, start); assert.equal(second.recent[0].seenCount, 2); assert.equal(second.recent[0].consecutiveCount, 2); assert.equal(second.recent[0].delta.likes, 7); assert.equal(second.recent[0].history.length, 2);
 });
-
-test("marks a missing item as non-current and resets it when it returns", () => {
+test("marks a missing successful list item as non-current and resets it when it returns", () => {
   const first = mergeTopicState([], [success([topic("1", 10)])], start);
   const missing = mergeTopicState(first.recent, [success([])], "2026-08-19T00:30:00.000Z");
   const returned = mergeTopicState(missing.recent, [success([topic("1", 15)])], "2026-08-19T01:00:00.000Z");
-
-  assert.equal(missing.recent[0].isCurrent, false);
-  assert.equal(missing.recent[0].consecutiveCount, 0);
-  assert.equal(returned.recent[0].seenCount, 2);
-  assert.equal(returned.recent[0].consecutiveCount, 1);
+  assert.equal(missing.recent[0].isCurrent, false); assert.equal(missing.recent[0].consecutiveCount, 0); assert.equal(returned.recent[0].seenCount, 2); assert.equal(returned.recent[0].consecutiveCount, 1);
 });
-
-test("expires records not seen for 48 hours", () => {
+test("keeps an item current when another independently collected list fails", () => {
   const first = mergeTopicState([], [success([topic("1", 10)])], start);
-  const expired = mergeTopicState(first.recent, [success([])], "2026-08-21T00:01:00.000Z");
-
-  assert.equal(expired.recent.length, 0);
-  assert.equal(expired.current.length, 0);
+  const failed: CollectorResult = { collectorId: "donga-share", source: "donga", status: "failed", collectedAt: "2026-08-19T00:30:00.000Z", error: "HTTP 429" };
+  assert.equal(mergeTopicState(first.recent, [failed], "2026-08-19T00:30:00.000Z").current[0].id, "donga:1");
 });
-
-test("keeps only the latest 48 metric snapshots", () => {
+test("merges placements for the same source URL", () => {
+  const popular = topic("1", null, "donga-popular");
+  const shared = { ...topic("1", null, "donga-share"), placements: [{ collectorId: "donga-share", label: "동아 공유순", rankingType: "공유순", rank: 2, category: "사회" }] };
+  const state = mergeTopicState([], [success([popular]), success([shared], "donga-share")], start);
+  assert.equal(state.current.length, 1); assert.deepEqual(state.current[0].placements.map((placement) => placement.collectorId), ["donga-popular", "donga-share"]);
+});
+test("expires records not seen for 48 hours and keeps only 48 snapshots", () => {
   let recent = mergeTopicState([], [success([topic("1", 1)])], start).recent;
-  for (let count = 2; count <= 49; count += 1) {
-    const collectedAt = new Date(Date.parse(start) + (count - 1) * 30 * 60 * 1_000).toISOString();
-    recent = mergeTopicState(recent, [success([topic("1", count)])], collectedAt).recent;
-  }
-
-  assert.equal(recent[0].history.length, 48);
-  assert.equal(recent[0].history[0].metrics.views, 2);
-  assert.equal(recent[0].history.at(-1)?.metrics.views, 49);
-});
-
-test("keeps prior current items when that source collector fails", () => {
-  const first = mergeTopicState([], [success([topic("1", 10)])], start);
-  const failed: CollectorResult = { source: "dcinside", status: "failed", collectedAt: "2026-08-19T00:30:00.000Z", error: "HTTP 429" };
-  const next = mergeTopicState(first.recent, [failed], "2026-08-19T00:30:00.000Z");
-
-  assert.equal(next.current[0].id, "dcinside:1");
-  assert.equal(next.current[0].consecutiveCount, 1);
-});
-
-test("removes records collected from the retired DCInside HIT target", () => {
-  const legacy = {
-    ...mergeTopicState([], [success([topic("17784", 10)])], start).recent[0],
-    url: "https://gall.dcinside.com/board/view/?id=hit&no=17784",
-  };
-  const current = topic("455190", 20);
-  const next = mergeTopicState([legacy], [success([current])], "2026-08-19T00:30:00.000Z");
-
-  assert.deepEqual(next.recent.map((record) => record.id), [current.id]);
+  for (let count = 2; count <= 49; count += 1) recent = mergeTopicState(recent, [success([topic("1", count)])], new Date(Date.parse(start) + (count - 1) * 30 * 60 * 1_000).toISOString()).recent;
+  assert.equal(recent[0].history.length, 48); assert.equal(recent[0].history[0].metrics.likes, 2);
+  assert.equal(mergeTopicState(recent, [success([])], "2026-08-22T00:01:00.000Z").recent.length, 0);
 });

@@ -5,5 +5,5 @@ import { TopicRadar } from "@/components/topic-radar";
 import type { TopicRecord } from "@/lib/topics/types";
 
 export default function Home() {
-  return <TopicRadar currentTopics={currentTopics as TopicRecord[]} recentTopics={recentTopics as TopicRecord[]} />;
+  return <TopicRadar currentTopics={currentTopics as unknown as TopicRecord[]} recentTopics={recentTopics as unknown as TopicRecord[]} />;
 }

@@ -1,16 +1,7 @@
 import type { Collector } from "../collector";
-import { dcInsideCollector } from "./dcinside";
-import { fmKoreaCollector } from "./fmkorea";
-import { googleTrendsCollector } from "./google-trends";
-import { ndtvCollector } from "./ndtv";
-import { redditCollector } from "./reddit";
-import { theQooCollector } from "./theqoo";
-
-export const collectors: Collector[] = [
-  dcInsideCollector,
-  fmKoreaCollector,
-  theQooCollector,
-  redditCollector,
-  ndtvCollector,
-  googleTrendsCollector,
-];
+import { dogdripCollectors } from "./dogdrip";
+import { dongaCollectors } from "./donga";
+import { hankyungCollectors } from "./hankyung";
+import { khanCollectors } from "./khan";
+import { mbcCollectors } from "./mbc";
+export const collectors: Collector[] = [...dogdripCollectors, ...dongaCollectors, ...hankyungCollectors, ...khanCollectors, ...mbcCollectors];

@@ -17,8 +17,14 @@ async function main() {
   if (!dryRun) await writeTopicState(dataDirectory, state);
 
   const report = results.map((result) => result.status === "success"
-    ? { source: result.source, status: result.status, itemCount: result.items.length, sample: result.items[0] ?? null }
-    : { source: result.source, status: result.status, error: result.error });
+    ? {
+      collectorId: result.collectorId,
+      source: result.source,
+      status: result.status,
+      itemCount: result.items.length,
+      sample: result.items[0] ?? null,
+    }
+    : { collectorId: result.collectorId, source: result.source, status: result.status, error: result.error });
 
   console.log(JSON.stringify({
     mode: dryRun ? "dry-run" : "write",
