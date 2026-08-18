@@ -2,7 +2,7 @@ import { load } from "cheerio";
 
 import type { Collector } from "../collector";
 import { fetchPublicText } from "../fetch";
-import { cleanText, emptyMetrics, parseCount, sourceIdFromUrl, toAbsoluteUrl, toIsoDate } from "../parsers";
+import { cleanText, emptyMetrics, parseCount, sourceIdFromUrl, toAbsoluteUrl } from "../parsers";
 import type { TopicDraft } from "../types";
 
 const URL = "https://gall.dcinside.com/board/lists?id=dcbest";
@@ -25,7 +25,7 @@ export function parseDcInsideHtml(html: string): TopicDraft[] {
       const publishedAtLabel = cleanText($(row).find(".gall_date").attr("title") ?? $(row).find(".gall_date").text());
       metrics.views = parseCount($(row).find(".gall_count").text());
       metrics.likes = parseCount($(row).find(".gall_recommend").text());
-      metrics.comments = parseCount(anchor.find(".reply_num").text());
+      metrics.comments = parseCount($(row).find(".reply_num").first().text().replace(/[\[\]]/g, ""));
 
       return [{
         source: "dcinside" as const,
@@ -33,7 +33,7 @@ export function parseDcInsideHtml(html: string): TopicDraft[] {
         url,
         title,
         titleOriginal: null,
-        publishedAt: toIsoDate(publishedAtLabel),
+        publishedAt: koreanDateTimeToIso(publishedAtLabel),
         publishedAtLabel: publishedAtLabel || null,
         metrics,
       }];
@@ -46,3 +46,11 @@ export const dcInsideCollector: Collector = {
     return parseDcInsideHtml(await fetchPublicText(URL));
   },
 };
+
+function koreanDateTimeToIso(value: string): string | null {
+  const match = value.match(/^(\d{4}-\d{2}-\d{2})\s(\d{2}:\d{2}:\d{2})$/);
+  if (!match) return null;
+
+  const publishedAt = new Date(`${match[1]}T${match[2]}+09:00`);
+  return Number.isNaN(publishedAt.getTime()) ? null : publishedAt.toISOString();
+}

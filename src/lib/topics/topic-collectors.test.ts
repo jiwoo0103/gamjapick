@@ -2,9 +2,26 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { runCollectors, type Collector } from "./collector";
+import { parseDcInsideHtml } from "./collectors/dcinside";
 import { parseGoogleTrendsRss } from "./collectors/google-trends";
 import { parseTheQooHtml } from "./collectors/theqoo";
 import { emptyMetrics } from "./parsers";
+
+test("DCInside parser converts the KST title timestamp and reads sibling comment count", () => {
+  const topics = parseDcInsideHtml(`
+    <table><tr class="ub-content">
+      <td class="gall_num">455192</td>
+      <td class="gall_tit"><a href="/board/view/?id=dcbest&no=455192">실시간 베스트 글</a><a class="reply_numbox"><span class="reply_num">[69]</span></a></td>
+      <td class="gall_date" title="2026-08-19 00:55:01">00:55</td>
+      <td class="gall_count">1,653</td><td class="gall_recommend">3</td>
+    </tr></table>
+  `);
+
+  assert.equal(topics[0].publishedAtLabel, "2026-08-19 00:55:01");
+  assert.equal(topics[0].publishedAt, "2026-08-18T15:55:01.000Z");
+  assert.equal(topics[0].metrics.comments, 69);
+  assert.equal(topics[0].title, "실시간 베스트 글");
+});
 
 test("TheQoo parser keeps only post links, parses comments, and resolves today's time in KST", () => {
   const topics = parseTheQooHtml(`
