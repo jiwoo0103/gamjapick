@@ -9,7 +9,7 @@
     "lint": "eslint",
     "collect": "tsx scripts/collect.ts",
     "collect:check": "tsx scripts/collect.ts --dry-run",
-    "test": "tsx --test src/lib/topics/topic-collectors.test.ts src/lib/topics/topic-state.test.ts"
+    "test": "tsx --test src/lib/topics/topic-collectors.test.ts src/lib/topics/topic-state.test.ts src/lib/topics/dashboard.test.ts"
   },
   "dependencies": {
     "next": "16.3.1",

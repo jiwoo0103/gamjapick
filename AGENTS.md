@@ -342,3 +342,13 @@ GamjaPick의 초기 목표는 비용 없이 개인적으로 사용할 수 있는
 - 남은 위험 또는 다음 작업이 필요한 경우 그 내용
 
 사용자가 단순 설명이나 조사만 요청한 경우에는 변경했다고 표현하지 않는다.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
