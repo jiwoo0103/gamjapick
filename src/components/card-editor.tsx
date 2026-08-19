@@ -46,12 +46,12 @@ export function CardEditor() {
   const [subtitle, setSubtitle] = useState("");
   const [font, setFont] = useState<FontOption>("sans");
   const [weight, setWeight] = useState<500 | 700 | 900>(900);
-  const [isAutoTitleSize, setIsAutoTitleSize] = useState(true);
-  const [manualTitleSize, setManualTitleSize] = useState(92);
+  const [isAutoTitleSize, setIsAutoTitleSize] = useState(false);
+  const [manualTitleSize, setManualTitleSize] = useState(53);
   const [lineHeight, setLineHeight] = useState(1.02);
   const [align, setAlign] = useState<Alignment>("left");
   const [textX, setTextX] = useState(8);
-  const [textY, setTextY] = useState(54);
+  const [textY, setTextY] = useState(70);
   const [highlights, setHighlights] = useState<TextHighlight[]>([]);
   const [highlightTerm, setHighlightTerm] = useState("");
   const [highlightColor, setHighlightColor] = useState("#facc15");
