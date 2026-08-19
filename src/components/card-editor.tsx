@@ -21,6 +21,10 @@ type TextHighlight = { id: string; term: string; color: string };
 const TEXT_BOX_WIDTH_PERCENT = 84;
 const TEXT_BOX_MAX_X_PERCENT = 100 - TEXT_BOX_WIDTH_PERCENT;
 const DEFAULT_TEXT_COLOR = "#ffffff";
+const BRAND_LOGO_SRC = "/gamjapick-logo.png";
+const BRAND_LOGO_WIDTH = 260;
+const BRAND_LOGO_BOTTOM = 64;
+const BRAND_LOGO_OPACITY = 0.42;
 const EDITOR_PANELS: { id: EditorPanel; label: string }[] = [
   { id: "content", label: "내용" },
   { id: "text", label: "글자" },
@@ -40,7 +44,6 @@ export function CardEditor() {
   const [exportMessage, setExportMessage] = useState<string | null>(null);
   const [title, setTitle] = useState("");
   const [subtitle, setSubtitle] = useState("");
-  const [credit, setCredit] = useState("@gamjapick");
   const [font, setFont] = useState<FontOption>("sans");
   const [weight, setWeight] = useState<500 | 700 | 900>(900);
   const [isAutoTitleSize, setIsAutoTitleSize] = useState(true);
@@ -66,12 +69,10 @@ export function CardEditor() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const topicTitle = params.get("title");
-    const topicSource = params.get("source");
-    if (!topicTitle && !topicSource) return;
+    if (!topicTitle) return;
 
     const timer = window.setTimeout(() => {
       if (topicTitle) setTitle(topicTitle);
-      if (topicSource) setCredit(topicSource.toUpperCase());
     }, 0);
     return () => window.clearTimeout(timer);
   }, []);
@@ -107,7 +108,6 @@ export function CardEditor() {
   const selectedFont = useMemo(() => FONT_OPTIONS.find((option) => option.value === font) ?? FONT_OPTIONS[0], [font]);
   const titleColor = DEFAULT_TEXT_COLOR;
   const subtitleColor = DEFAULT_TEXT_COLOR;
-  const creditColor = DEFAULT_TEXT_COLOR;
   const previewLines = useMemo(
     () => getTextLines(title, subtitle, titleSize, weight, selectedFont.canvasFamily),
     [selectedFont.canvasFamily, subtitle, title, titleSize, weight],
@@ -199,14 +199,6 @@ export function CardEditor() {
       context.textBaseline = "top";
       const textLines = getTextLines(title, subtitle, titleSize, weight, selectedFont.canvasFamily, context);
 
-      if (credit) {
-        context.globalAlpha = 0.75;
-        context.font = `700 24px ${selectedFont.canvasFamily}`;
-        drawHighlightedLine(context, credit, textXPosition, cursorY, creditColor, highlights);
-        context.globalAlpha = 1;
-        cursorY += 58;
-      }
-
       context.font = `${weight} ${titleSize}px ${selectedFont.canvasFamily}`;
       const titleLineHeight = titleSize * lineHeight;
       textLines.title.forEach((line, index) => drawHighlightedLine(context, line, textXPosition, cursorY + (index * titleLineHeight), titleColor, highlights));
@@ -219,6 +211,12 @@ export function CardEditor() {
         textLines.subtitle.forEach((line, index) => drawHighlightedLine(context, line, textXPosition, cursorY + (index * 46), subtitleColor, highlights));
         context.globalAlpha = 1;
       }
+
+      const brandLogo = await loadImage(BRAND_LOGO_SRC);
+      const brandLogoHeight = brandLogo.naturalHeight * (BRAND_LOGO_WIDTH / brandLogo.naturalWidth);
+      context.globalAlpha = BRAND_LOGO_OPACITY;
+      context.drawImage(brandLogo, (CARD_WIDTH - BRAND_LOGO_WIDTH) / 2, CARD_HEIGHT - BRAND_LOGO_BOTTOM - brandLogoHeight, BRAND_LOGO_WIDTH, brandLogoHeight);
+      context.globalAlpha = 1;
 
       const blob = await new Promise<Blob>((resolve, reject) => canvas.toBlob((value) => value ? resolve(value) : reject(new Error("PNG를 만들지 못했습니다.")), "image/png"));
       downloadBlob(blob, "gamjapick-card.png");
@@ -245,10 +243,12 @@ export function CardEditor() {
                 ) : <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_15%,#facc15,transparent_30%),radial-gradient(circle_at_80%_25%,#fb7185,transparent_32%),linear-gradient(145deg,#292524_15%,#0c0a09_78%)]" />}
                 <div aria-hidden="true" className="absolute inset-0" style={{ background: `linear-gradient(to bottom, rgba(12,10,9,0.03) 20%, rgba(12,10,9,${gradientStrength / 100}) 100%)` }} />
                 <div onPointerDown={handleTextPointerDown} onPointerMove={handleTextPointerMove} onPointerUp={stopTextDrag} onPointerCancel={stopTextDrag} className={`absolute select-none ${isDraggingText ? "cursor-grabbing" : "cursor-grab"}`} style={{ left: `${textX}%`, width: `${TEXT_BOX_WIDTH_PERCENT}%`, top: `${textY}%`, textAlign: align, fontFamily: selectedFont.family, touchAction: "none" }}>
-                  {credit ? <p className="font-bold tracking-[0.2em]" style={{ opacity: 0.75, fontSize: `${(24 / CARD_WIDTH) * 100}cqw`, lineHeight: 1, marginBottom: `${(34 / CARD_WIDTH) * 100}cqw` }}><HighlightedLine line={credit} baseColor={creditColor} highlights={highlights} /></p> : null}
                   {previewLines.title.length > 0 ? <h2 data-title-line-count={previewLines.title.length} style={{ fontSize: `${(titleSize / CARD_WIDTH) * 100}cqw`, fontWeight: weight, lineHeight }}>{previewLines.title.map((line, index) => <span key={`${line}-${index}`} className="block whitespace-nowrap"><HighlightedLine line={line} baseColor={titleColor} highlights={highlights} /></span>)}</h2> : null}
                   {previewLines.subtitle.length > 0 ? <p className="font-medium" style={{ opacity: 0.9, fontSize: `${(32 / CARD_WIDTH) * 100}cqw`, lineHeight: 1.4375, marginTop: `${(36 / CARD_WIDTH) * 100}cqw` }}>{previewLines.subtitle.map((line, index) => <span key={`${line}-${index}`} className="block whitespace-nowrap"><HighlightedLine line={line} baseColor={subtitleColor} highlights={highlights} /></span>)}</p> : null}
                 </div>
+                {/* Logo stays separate from the draggable copy and anchored at the card footer. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img aria-hidden="true" alt="" className="pointer-events-none absolute left-1/2 w-[24.1%] -translate-x-1/2" src={BRAND_LOGO_SRC} style={{ bottom: `${(BRAND_LOGO_BOTTOM / CARD_HEIGHT) * 100}%`, opacity: BRAND_LOGO_OPACITY }} />
               </div>
             </div>
           </section>
@@ -271,8 +271,6 @@ export function CardEditor() {
               <textarea id="title" className="text-input min-h-16" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="카드 제목을 입력하세요" />
               <label className="field-label mt-3" htmlFor="subtitle">부제 <span className="font-normal text-stone-400">선택</span></label>
               <textarea id="subtitle" className="text-input min-h-14" value={subtitle} onChange={(event) => setSubtitle(event.target.value)} placeholder="짧은 설명을 입력하세요" />
-              <label className="field-label mt-3" htmlFor="credit">출처 문구 <span className="font-normal text-stone-400">선택</span></label>
-              <input id="credit" className="text-input" value={credit} onChange={(event) => setCredit(event.target.value)} placeholder="@gamjapick" />
             </Panel> : null}
 
             {activePanel === "text" ? <Panel title="글자">
