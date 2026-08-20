@@ -47,8 +47,8 @@ export function CardEditor() {
   const [font, setFont] = useState<FontOption>("sans");
   const [weight, setWeight] = useState<500 | 700 | 900>(900);
   const [isAutoTitleSize, setIsAutoTitleSize] = useState(false);
-  const [manualTitleSize, setManualTitleSize] = useState(53);
-  const [lineHeight, setLineHeight] = useState(1.02);
+  const [manualTitleSize, setManualTitleSize] = useState(59);
+  const [lineHeight, setLineHeight] = useState(1.45);
   const [align, setAlign] = useState<Alignment>("left");
   const [textX, setTextX] = useState(8);
   const [textY, setTextY] = useState(70);
