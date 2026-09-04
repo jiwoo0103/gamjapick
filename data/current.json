@@ -4,7 +4,7 @@
     "sourceId": "issue:www.khan.co.kr/issue/articles/ah847",
     "url": "https://www.khan.co.kr/article/202609022127015",
     "title": "이형일 부총리 내정자 “부동산 세제 개편, 국회 합리적 지적 땐 수용”",
-    "summary": "이슈 · 부동산대책 후폭풍 · 기사 3,466개",
+    "summary": "이슈 · 부동산대책 후폭풍 · 기사 3,461개",
     "publishedAt": null,
     "publishedAtLabel": "2026.09.02 21:27",
     "metrics": {
@@ -21,33 +21,17 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ah847",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-issue-updated",
-            "label": "경향 이슈 업데이트",
-            "rankingType": "이슈 업데이트",
-            "rank": 4,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -786,6 +770,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 7,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -824,33 +824,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745168_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -1589,6 +1573,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 1,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -1627,33 +1627,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745155_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -2392,6 +2376,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 2,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -2430,33 +2430,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745152_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -3195,6 +3179,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 3,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -3233,33 +3233,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745139_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 4,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -3998,6 +3982,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 4,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -4036,33 +4036,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745138_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -4801,6 +4785,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 5,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -4839,33 +4839,17 @@
       }
     ],
     "id": "mbc:imnews.imbc.com/replay/2025/nwtoday/article/6745137_36807.html",
-    "collectedAt": "2026-09-04T21:56:01.431Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 330,
-    "consecutiveCount": 330,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 331,
+    "consecutiveCount": 331,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-sns",
-            "label": "MBC 많이 본 뉴스 · SNS",
-            "rankingType": "SNS",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -5604,6 +5588,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-sns",
+            "label": "MBC 많이 본 뉴스 · SNS",
+            "rankingType": "SNS",
+            "rank": 6,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -5642,33 +5642,17 @@
       }
     ],
     "id": "mbc:6847250",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-25T09:58:27.876Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 92,
-    "consecutiveCount": 92,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 93,
+    "consecutiveCount": 93,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 7,
-            "category": "14F"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -6420,6 +6404,22 @@
             "category": "14F"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 20,
+            "category": "14F"
+          }
+        ]
       }
     ]
   },
@@ -6430,7 +6430,7 @@
     "title": "청와대, 호르무즈 파병 두고 “한반도 대비태세 손상없는 범위서 운신”…국회 동의안 제출 등 고심하는 정부",
     "summary": "이슈 · 미·이란 전쟁 · 기사 1,634개",
     "publishedAt": null,
-    "publishedAtLabel": "14시간 전",
+    "publishedAtLabel": "16시간 전",
     "metrics": {
       "likes": null,
       "comments": null
@@ -6445,33 +6445,17 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ah941",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-18T20:16:07.191Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 290,
-    "consecutiveCount": 86,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 291,
+    "consecutiveCount": 87,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-issue-updated",
-            "label": "경향 이슈 업데이트",
-            "rankingType": "이슈 업데이트",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -7210,6 +7194,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 2,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -7248,33 +7248,17 @@
       }
     ],
     "id": "mbc:6847454",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-26T05:57:07.808Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 65,
-    "consecutiveCount": 65,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 66,
+    "consecutiveCount": 66,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 6,
-            "category": "엠빅"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -8013,6 +7997,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 19,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -8051,33 +8051,17 @@
       }
     ],
     "id": "mbc:6847507",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-26T08:30:37.699Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 62,
-    "consecutiveCount": 62,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 63,
+    "consecutiveCount": 63,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 5,
-            "category": "엠빅"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -8816,6 +8800,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 18,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -8854,33 +8854,17 @@
       }
     ],
     "id": "mbc:6847733",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-27T05:40:31.016Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 49,
-    "consecutiveCount": 49,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 50,
+    "consecutiveCount": 50,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 4,
-            "category": "엠빅"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -9632,6 +9616,22 @@
             "category": "엠빅"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 17,
+            "category": "엠빅"
+          }
+        ]
       }
     ]
   },
@@ -9642,7 +9642,7 @@
     "title": "네팔 정부, 대홍수 피해 지역 주민 정착촌 물색 작업 시작···“2만채 가옥 재건 필요”",
     "summary": "이슈 · 네팔 대홍수 · 기사 80개",
     "publishedAt": null,
-    "publishedAtLabel": "13시간 전",
+    "publishedAtLabel": "15시간 전",
     "metrics": {
       "likes": null,
       "comments": null
@@ -9657,33 +9657,17 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahd60",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-27T17:03:31.402Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 48,
-    "consecutiveCount": 48,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 49,
+    "consecutiveCount": 49,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-issue-updated",
-            "label": "경향 이슈 업데이트",
-            "rankingType": "이슈 업데이트",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -10422,6 +10406,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 1,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -10460,33 +10460,17 @@
       }
     ],
     "id": "mbc:6847828",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-27T17:03:31.402Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 48,
-    "consecutiveCount": 48,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 49,
+    "consecutiveCount": 49,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 1,
-            "category": "14F"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -11225,6 +11209,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 14,
+            "category": "14F"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -11263,33 +11263,17 @@
       }
     ],
     "id": "mbc:6847811",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-27T17:03:31.402Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 48,
-    "consecutiveCount": 48,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 49,
+    "consecutiveCount": 49,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 2,
-            "category": "엠빅"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -12028,6 +12012,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 15,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -12066,33 +12066,17 @@
       }
     ],
     "id": "mbc:6847790",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-27T17:03:31.402Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 48,
-    "consecutiveCount": 48,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 49,
+    "consecutiveCount": 49,
     "isCurrent": true,
     "delta": {
       "likes": null,
       "comments": null
     },
     "history": [
-      {
-        "observedAt": "2026-08-27T17:03:31.402Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-mbig-14f",
-            "label": "MBC 엠빅 X 14F",
-            "rankingType": "엠빅 X 14F",
-            "rank": 3,
-            "category": "엠빅"
-          }
-        ]
-      },
       {
         "observedAt": "2026-08-28T01:33:43.647Z",
         "metrics": {
@@ -12844,6 +12828,22 @@
             "category": "엠빅"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 16,
+            "category": "엠빅"
+          }
+        ]
       }
     ]
   },
@@ -12869,11 +12869,11 @@
       }
     ],
     "id": "mbc:6848049",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-28T13:31:21.393Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 46,
-    "consecutiveCount": 46,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 47,
+    "consecutiveCount": 47,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -13602,6 +13602,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 13,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -13640,11 +13656,11 @@
       }
     ],
     "id": "mbc:6848596",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-31T14:34:35.431Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 30,
-    "consecutiveCount": 30,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 31,
+    "consecutiveCount": 31,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -14117,6 +14133,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 11,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -14155,11 +14187,11 @@
       }
     ],
     "id": "mbc:6848591",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-08-31T14:34:35.431Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 30,
-    "consecutiveCount": 30,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 31,
+    "consecutiveCount": 31,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -14645,6 +14677,22 @@
             "category": "14F"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 12,
+            "category": "14F"
+          }
+        ]
       }
     ]
   },
@@ -14653,7 +14701,7 @@
     "sourceId": "issue:www.khan.co.kr/issue/articles/ahb03",
     "url": "https://www.khan.co.kr/article/202609031525001",
     "title": "우크라 “민항기, 러시아 영공 피하라” ICAO 통보···러 “국가적 테러리즘” 신경전 고조",
-    "summary": "이슈 · 러·우 전쟁 장기화 · 기사 3,018개",
+    "summary": "이슈 · 러·우 전쟁 장기화 · 기사 3,004개",
     "publishedAt": null,
     "publishedAtLabel": "2026.09.03 15:25",
     "metrics": {
@@ -14670,11 +14718,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahb03",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-09-01T08:59:46.535Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 26,
-    "consecutiveCount": 26,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 27,
+    "consecutiveCount": 27,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -15083,6 +15131,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 5,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -15121,11 +15185,11 @@
       }
     ],
     "id": "mbc:6848881",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-01T08:59:46.535Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 26,
-    "consecutiveCount": 26,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 27,
+    "consecutiveCount": 27,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -15534,6 +15598,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 8,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -15572,11 +15652,11 @@
       }
     ],
     "id": "mbc:6848864",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-01T08:59:46.535Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 26,
-    "consecutiveCount": 26,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 27,
+    "consecutiveCount": 27,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -15985,6 +16065,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 9,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -16023,11 +16119,11 @@
       }
     ],
     "id": "mbc:6848847",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-01T08:59:46.535Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 26,
-    "consecutiveCount": 26,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 27,
+    "consecutiveCount": 27,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -16436,6 +16532,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 10,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -16474,11 +16586,11 @@
       }
     ],
     "id": "mbc:6848918",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-01T13:59:14.266Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 25,
-    "consecutiveCount": 25,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 26,
+    "consecutiveCount": 26,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -16884,6 +16996,22 @@
             "category": "14F"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 7,
+            "category": "14F"
+          }
+        ]
       }
     ]
   },
@@ -16909,11 +17037,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/theme/articles/A121/",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-28T13:31:21.393Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 40,
-    "consecutiveCount": 20,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 41,
+    "consecutiveCount": 21,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -17559,6 +17687,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 9,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -17567,7 +17711,7 @@
     "sourceId": "issue:www.khan.co.kr/issue/articles/ahd04",
     "url": "https://www.khan.co.kr/article/202609022134015",
     "title": "법원, 홈플러스 회생계획안 인가",
-    "summary": "이슈 · 홈플러스 영업 재개 · 기사 156개",
+    "summary": "이슈 · 홈플러스 영업 재개 · 기사 154개",
     "publishedAt": null,
     "publishedAtLabel": "2026.09.02 21:34",
     "metrics": {
@@ -17584,11 +17728,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahd04",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-09-02T05:14:15.213Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 20,
-    "consecutiveCount": 20,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 21,
+    "consecutiveCount": 21,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -17914,6 +18058,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 6,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -17939,11 +18099,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609028739g",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.244Z",
     "firstSeenAt": "2026-09-02T09:46:17.400Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 19,
-    "consecutiveCount": 19,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 20,
+    "consecutiveCount": 20,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -18240,6 +18400,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-tech-most-read",
+            "label": "테크 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 3,
+            "category": "테크"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -18278,11 +18454,11 @@
       }
     ],
     "id": "mbc:6849140",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-02T09:46:17.400Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 19,
-    "consecutiveCount": 19,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 20,
+    "consecutiveCount": 20,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -18579,6 +18755,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 5,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -18617,11 +18809,11 @@
       }
     ],
     "id": "mbc:6849139",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-02T09:46:17.400Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 19,
-    "consecutiveCount": 19,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 20,
+    "consecutiveCount": 20,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -18931,6 +19123,22 @@
             "category": "엠빅"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 6,
+            "category": "엠빅"
+          }
+        ]
       }
     ]
   },
@@ -18956,11 +19164,11 @@
       }
     ],
     "id": "donga:134595401",
-    "collectedAt": "2026-09-04T21:56:01.422Z",
+    "collectedAt": "2026-09-04T23:34:54.242Z",
     "firstSeenAt": "2026-09-02T20:15:59.886Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 16,
-    "consecutiveCount": 16,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 17,
+    "consecutiveCount": 17,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -19320,6 +19528,22 @@
             "category": "종합"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 1,
+            "category": "종합"
+          }
+        ]
       }
     ]
   },
@@ -19340,16 +19564,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 9,
+        "rank": 10,
         "category": null
       }
     ],
     "id": "khan:202609030600011",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-02T22:43:43.559Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 15,
-    "consecutiveCount": 15,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 16,
+    "consecutiveCount": 16,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -19595,6 +19819,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 10,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -19620,11 +19860,11 @@
       }
     ],
     "id": "donga:134595776",
-    "collectedAt": "2026-09-04T21:56:01.422Z",
+    "collectedAt": "2026-09-04T23:34:54.242Z",
     "firstSeenAt": "2026-09-02T20:15:59.886Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 15,
-    "consecutiveCount": 14,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 16,
+    "consecutiveCount": 15,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -19926,6 +20166,22 @@
             "category": "종합"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 2,
+            "category": "종합"
+          }
+        ]
       }
     ]
   },
@@ -19951,11 +20207,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahd49",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-31T00:59:21.198Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 26,
-    "consecutiveCount": 14,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 27,
+    "consecutiveCount": 15,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -20377,6 +20633,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 8,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -20385,9 +20657,9 @@
     "sourceId": "issue:www.khan.co.kr/issue/articles/ahd00",
     "url": "https://www.khan.co.kr/article/202609041212001",
     "title": "청와대 “한·미 투자 이슈에 반도체도 논의 대상…장애요인 안 되게 노력”",
-    "summary": "이슈 · 트럼프 “한국 관세 인상” · 기사 962개",
+    "summary": "이슈 · 트럼프 “한국 관세 인상” · 기사 931개",
     "publishedAt": null,
-    "publishedAtLabel": "18시간 전",
+    "publishedAtLabel": "20시간 전",
     "metrics": {
       "likes": null,
       "comments": null
@@ -20402,11 +20674,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahd00",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-08-28T13:31:21.393Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 33,
-    "consecutiveCount": 13,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 34,
+    "consecutiveCount": 14,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -20940,6 +21212,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 3,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -20965,11 +21253,11 @@
       }
     ],
     "id": "donga:134597630",
-    "collectedAt": "2026-09-04T21:56:01.422Z",
+    "collectedAt": "2026-09-04T23:34:54.242Z",
     "firstSeenAt": "2026-09-03T05:19:44.280Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 13,
-    "consecutiveCount": 13,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 14,
+    "consecutiveCount": 14,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -21198,6 +21486,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 5,
+            "category": "종합"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -21236,11 +21540,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609031128H",
-    "collectedAt": "2026-09-04T21:56:01.423Z",
+    "collectedAt": "2026-09-04T23:34:54.243Z",
     "firstSeenAt": "2026-09-03T05:19:44.280Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 13,
-    "consecutiveCount": 13,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 14,
+    "consecutiveCount": 14,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -21454,6 +21758,22 @@
             "category": "사회"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-society-most-read",
+            "label": "사회 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 2,
+            "category": "사회"
+          }
+        ]
       }
     ]
   },
@@ -21479,11 +21799,11 @@
       }
     ],
     "id": "mbc:6849406",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-03T09:58:23.953Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 12,
-    "consecutiveCount": 12,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 13,
+    "consecutiveCount": 13,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -21668,6 +21988,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 3,
+            "category": "엠빅"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -21706,11 +22042,11 @@
       }
     ],
     "id": "mbc:6849391",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-03T09:58:23.953Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 12,
-    "consecutiveCount": 12,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 13,
+    "consecutiveCount": 13,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -21908,6 +22244,22 @@
             "category": "엠빅"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 4,
+            "category": "엠빅"
+          }
+        ]
       }
     ]
   },
@@ -21933,11 +22285,11 @@
       }
     ],
     "id": "khan:issue:www.khan.co.kr/issue/articles/ahb88",
-    "collectedAt": "2026-09-04T21:56:01.427Z",
+    "collectedAt": "2026-09-04T23:34:54.247Z",
     "firstSeenAt": "2026-09-03T14:08:11.663Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 11,
-    "consecutiveCount": 11,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 12,
+    "consecutiveCount": 12,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -22106,6 +22458,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-issue-updated",
+            "label": "경향 이슈 업데이트",
+            "rankingType": "이슈 업데이트",
+            "rank": 4,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -22144,11 +22512,11 @@
       }
     ],
     "id": "mbc:6849443",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-03T14:08:11.663Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 11,
-    "consecutiveCount": 11,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 12,
+    "consecutiveCount": 12,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -22330,6 +22698,22 @@
             "category": "14F"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 2,
+            "category": "14F"
+          }
+        ]
       }
     ]
   },
@@ -22350,7 +22734,7 @@
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 4,
+        "rank": 5,
         "category": "국제"
       },
       {
@@ -22362,11 +22746,11 @@
       }
     ],
     "id": "donga:134595070",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-02T20:15:59.886Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 15,
-    "consecutiveCount": 10,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 16,
+    "consecutiveCount": 11,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -22717,6 +23101,29 @@
             "category": "국제"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 5,
+            "category": "국제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 5,
+            "category": "국제"
+          }
+        ]
       }
     ]
   },
@@ -22742,11 +23149,11 @@
       }
     ],
     "id": "donga:134595411",
-    "collectedAt": "2026-09-04T21:56:01.422Z",
+    "collectedAt": "2026-09-04T23:34:54.242Z",
     "firstSeenAt": "2026-09-02T22:43:43.559Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 12,
-    "consecutiveCount": 10,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 13,
+    "consecutiveCount": 11,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -22965,6 +23372,22 @@
             "category": "종합"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 4,
+            "category": "종합"
+          }
+        ]
       }
     ]
   },
@@ -22977,7 +23400,7 @@
     "publishedAt": "2026-09-03T10:53:08.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 1133,
+      "likes": 1134,
       "comments": 261
     },
     "placements": [
@@ -22990,14 +23413,14 @@
       }
     ],
     "id": "hackernews:49548395",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-03T17:55:46.690Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 10,
-    "consecutiveCount": 10,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 11,
+    "consecutiveCount": 11,
     "isCurrent": true,
     "delta": {
-      "likes": 6,
+      "likes": 1,
       "comments": 0
     },
     "history": [
@@ -23160,6 +23583,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 1134,
+          "comments": 261
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 4,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -23172,7 +23611,7 @@
     "publishedAt": "2026-09-03T14:54:39.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 2135,
+      "likes": 2141,
       "comments": 528
     },
     "placements": [
@@ -23185,15 +23624,15 @@
       }
     ],
     "id": "hackernews:49550772",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-03T17:55:46.690Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 10,
-    "consecutiveCount": 10,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 11,
+    "consecutiveCount": 11,
     "isCurrent": true,
     "delta": {
-      "likes": 10,
-      "comments": 5
+      "likes": 6,
+      "comments": 0
     },
     "history": [
       {
@@ -23355,362 +23794,20 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/news/2026/politics/article/6849480_36911.html",
-    "url": "https://imnews.imbc.com/news/2026/politics/article/6849480_36911.html",
-    "title": "정부, 호르무즈에 파병 가닥‥파병동의안 조만간 국회 제출 검토",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 6,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/news/2026/politics/article/6849480_36911.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-03T20:17:53.965Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 9,
-    "consecutiveCount": 9,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-03T20:17:53.965Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
       },
       {
-        "observedAt": "2026-09-03T22:43:31.190Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
-          "likes": null,
-          "comments": null
+          "likes": 2141,
+          "comments": 528
         },
         "placements": [
           {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T00:34:14.854Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849464_37004.html",
-    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849464_37004.html",
-    "title": "\"사고 난 줄 몰랐다\"‥보행자 덮치고 10km 달려",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 4,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849464_37004.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-03T20:17:53.965Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 9,
-    "consecutiveCount": 9,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-03T20:17:53.965Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T22:43:31.190Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T00:34:14.854Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
             "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 4,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 4,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 4,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 4,
-            "category": null
+            "category": "해외 · 기술/스타트업"
           }
         ]
       }
@@ -23725,8 +23822,8 @@
     "publishedAt": "2026-09-03T18:41:05.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 2138,
-      "comments": 1944
+      "likes": 2144,
+      "comments": 1961
     },
     "placements": [
       {
@@ -23738,15 +23835,15 @@
       }
     ],
     "id": "hackernews:49554643",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-03T22:43:31.190Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 8,
-    "consecutiveCount": 8,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 9,
+    "consecutiveCount": 9,
     "isCurrent": true,
     "delta": {
-      "likes": 23,
-      "comments": 24
+      "likes": 6,
+      "comments": 17
     },
     "history": [
       {
@@ -23876,6 +23973,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 2144,
+          "comments": 1961
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 1,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -23901,11 +24014,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609017602H",
-    "collectedAt": "2026-09-04T21:56:01.423Z",
+    "collectedAt": "2026-09-04T23:34:54.243Z",
     "firstSeenAt": "2026-09-04T00:34:14.854Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 7,
-    "consecutiveCount": 7,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 8,
+    "consecutiveCount": 8,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -24023,6 +24136,22 @@
             "category": "사회"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-society-most-read",
+            "label": "사회 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 1,
+            "category": "사회"
+          }
+        ]
       }
     ]
   },
@@ -24048,14 +24177,14 @@
       }
     ],
     "id": "hackernews:49550698",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T00:34:14.854Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 7,
-    "consecutiveCount": 7,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 8,
+    "consecutiveCount": 8,
     "isCurrent": true,
     "delta": {
-      "likes": 3,
+      "likes": 0,
       "comments": 0
     },
     "history": [
@@ -24170,6 +24299,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 632,
+          "comments": 306
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 6,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -24190,16 +24335,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 2,
+        "rank": 3,
         "category": null
       }
     ],
     "id": "khan:202609040943001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 7,
+    "consecutiveCount": 7,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -24301,6 +24446,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 3,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -24326,11 +24487,11 @@
       }
     ],
     "id": "khan:202609041035001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 7,
+    "consecutiveCount": 7,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -24432,44 +24593,9 @@
             "category": null
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609041010001",
-    "url": "https://www.khan.co.kr/article/202609041010001",
-    "title": "이 대통령 지지율 40%, 최저치 경신…“6개 부처 장관 교체 인선 여파”[한국갤럽]",
-    "summary": "이재명 대통령의 국정 수행 긍정 평가가 40%를 기록했다는 한국갤럽 조사 결과가 4일 나왔다. 같은 기관 조사에서 취임 후 최저치를 경신했다. 부정 평가는 51%로 취임 후 최고치를 기록했다.한국갤럽이 지난 1~3일 유권자 1001명을 대상으로 조사한 결과, 이 대통령에 대한 직무 수행...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
+      },
       {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 10,
-        "category": null
-      }
-    ],
-    "id": "khan:202609041010001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -24479,349 +24605,7 @@
             "collectorId": "khan-realtime-most-viewed",
             "label": "경향 지금 많이 보는",
             "rankingType": "지금 많이 보는",
-            "rank": 9,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 11,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 18,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 13,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 15,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 10,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/replay/2026/nwtoday/article/6849543_37012.html",
-    "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6849543_37012.html",
-    "title": "[와글와글 플러스] 괴산군 영상 뭐길래?‥이틀 만에 100만 돌파",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 1,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/replay/2026/nwtoday/article/6849543_37012.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/news/2026/society/article/6849567_36918.html",
-    "url": "https://imnews.imbc.com/news/2026/society/article/6849567_36918.html",
-    "title": "'구광모 파양' 패소한 양모‥\"모자관계 어렵다\" 입술 꽉",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 2,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/news/2026/society/article/6849567_36918.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 2,
+            "rank": 12,
             "category": null
           }
         ]
@@ -24838,7 +24622,7 @@
     "publishedAtLabel": null,
     "metrics": {
       "likes": 675,
-      "comments": 222
+      "comments": 223
     },
     "placements": [
       {
@@ -24850,14 +24634,14 @@
       }
     ],
     "id": "hackernews:49554520",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 6,
-    "consecutiveCount": 6,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 7,
+    "consecutiveCount": 7,
     "isCurrent": true,
     "delta": {
-      "likes": 3,
+      "likes": 0,
       "comments": 1
     },
     "history": [
@@ -24956,161 +24740,20 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "donga",
-    "sourceId": "134605807",
-    "url": "https://www.donga.com/news/Society/article/all/20260904/134605807/1",
-    "title": "은행원에 8000억 수표 내밀며 “입금해달라”…가짜였다",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "donga-popular",
-        "label": "동아 실시간 인기순",
-        "rankingType": "인기순",
-        "rank": 2,
-        "category": "사회"
       },
       {
-        "collectorId": "donga-share",
-        "label": "동아 실시간 공유순",
-        "rankingType": "공유순",
-        "rank": 2,
-        "category": "사회"
-      }
-    ],
-    "id": "donga:134605807",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
-    "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
-          "likes": null,
-          "comments": null
+          "likes": 675,
+          "comments": 223
         },
         "placements": [
           {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 1,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 1,
-            "category": "사회"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 1,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 1,
-            "category": "사회"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 2,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 2,
-            "category": "사회"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 3,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 3,
-            "category": "사회"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 2,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 2,
-            "category": "사회"
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 5,
+            "category": "해외 · 기술/스타트업"
           }
         ]
       }
@@ -25133,23 +24776,23 @@
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 5,
+        "rank": 3,
         "category": "사회"
       },
       {
         "collectorId": "donga-share",
         "label": "동아 실시간 공유순",
         "rankingType": "공유순",
-        "rank": 5,
+        "rank": 3,
         "category": "사회"
       }
     ],
     "id": "donga:134606600",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -25267,6 +24910,29 @@
             "label": "동아 실시간 공유순",
             "rankingType": "공유순",
             "rank": 5,
+            "category": "사회"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 3,
+            "category": "사회"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 3,
             "category": "사회"
           }
         ]
@@ -25290,23 +24956,23 @@
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 3,
+        "rank": 5,
         "category": "경제"
       },
       {
         "collectorId": "donga-share",
         "label": "동아 실시간 공유순",
         "rankingType": "공유순",
-        "rank": 3,
+        "rank": 5,
         "category": "경제"
       }
     ],
     "id": "donga:134607540",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -25427,51 +25093,9 @@
             "category": "경제"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "donga",
-    "sourceId": "134608229",
-    "url": "https://www.donga.com/news/Inter/article/all/20260904/134608229/1",
-    "title": "中, 이란에 ‘백지수표’ 없다…“美와 정면충돌은 피할 듯”",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "donga-popular",
-        "label": "동아 실시간 인기순",
-        "rankingType": "인기순",
-        "rank": 3,
-        "category": "국제"
       },
       {
-        "collectorId": "donga-share",
-        "label": "동아 실시간 공유순",
-        "rankingType": "공유순",
-        "rank": 3,
-        "category": "국제"
-      }
-    ],
-    "id": "donga:134608229",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
-    "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -25482,106 +25106,14 @@
             "label": "동아 실시간 인기순",
             "rankingType": "인기순",
             "rank": 5,
-            "category": "국제"
+            "category": "경제"
           },
           {
             "collectorId": "donga-share",
             "label": "동아 실시간 공유순",
             "rankingType": "공유순",
             "rank": 5,
-            "category": "국제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 3,
-            "category": "국제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 3,
-            "category": "국제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 1,
-            "category": "국제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 1,
-            "category": "국제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 5,
-            "category": "국제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 5,
-            "category": "국제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 3,
-            "category": "국제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 3,
-            "category": "국제"
+            "category": "경제"
           }
         ]
       }
@@ -25609,11 +25141,11 @@
       }
     ],
     "id": "hankyung:2026090434127",
-    "collectedAt": "2026-09-04T21:56:01.423Z",
+    "collectedAt": "2026-09-04T23:34:54.243Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -25686,6 +25218,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-society-most-read",
+            "label": "사회 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 5,
+            "category": "사회"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -25724,11 +25272,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609030915g",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.244Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -25814,6 +25362,22 @@
             "category": "테크"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-tech-most-read",
+            "label": "테크 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 1,
+            "category": "테크"
+          }
+        ]
       }
     ]
   },
@@ -25834,16 +25398,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 13,
+        "rank": 15,
         "category": null
       }
     ],
     "id": "khan:202609041803001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -25929,6 +25493,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 15,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -25954,11 +25534,11 @@
       }
     ],
     "id": "khan:202609041532001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26044,6 +25624,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 1,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -26069,11 +25665,11 @@
       }
     ],
     "id": "khan:202609041710001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26159,6 +25755,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 5,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -26179,16 +25791,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 7,
+        "rank": 13,
         "category": null
       }
     ],
     "id": "khan:202609041627001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26274,6 +25886,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 13,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -26294,16 +25922,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 4,
+        "rank": 6,
         "category": null
       }
     ],
     "id": "khan:202609041519001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26389,6 +26017,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 6,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -26414,11 +26058,11 @@
       }
     ],
     "id": "mbc:6849674",
-    "collectedAt": "2026-09-04T21:56:01.429Z",
+    "collectedAt": "2026-09-04T23:34:54.248Z",
     "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 5,
-    "consecutiveCount": 5,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 6,
+    "consecutiveCount": 6,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26504,6 +26148,22 @@
             "category": "엠빅"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-mbig-14f",
+            "label": "MBC 엠빅 X 14F",
+            "rankingType": "엠빅 X 14F",
+            "rank": 1,
+            "category": "엠빅"
+          }
+        ]
       }
     ]
   },
@@ -26524,16 +26184,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 14,
+        "rank": 16,
         "category": null
       }
     ],
     "id": "khan:202609030600001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-02T22:43:43.559Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 14,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 15,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26763,6 +26423,22 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 16,
+            "category": null
+          }
+        ]
       }
     ]
   },
@@ -26788,11 +26464,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609017824g",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.244Z",
     "firstSeenAt": "2026-09-02T22:43:43.559Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 12,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 13,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -26990,6 +26666,22 @@
             "category": "테크"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-tech-most-read",
+            "label": "테크 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 4,
+            "category": "테크"
+          }
+        ]
       }
     ]
   },
@@ -27007,26 +26699,26 @@
     },
     "placements": [
       {
-        "collectorId": "donga-share",
-        "label": "동아 실시간 공유순",
-        "rankingType": "공유순",
-        "rank": 4,
-        "category": "사회"
-      },
-      {
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 4,
+        "rank": 2,
+        "category": "사회"
+      },
+      {
+        "collectorId": "donga-share",
+        "label": "동아 실시간 공유순",
+        "rankingType": "공유순",
+        "rank": 2,
         "category": "사회"
       }
     ],
     "id": "donga:134609143",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 5,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -27121,6 +26813,29 @@
             "label": "동아 실시간 인기순",
             "rankingType": "인기순",
             "rank": 4,
+            "category": "사회"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 2,
+            "category": "사회"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 2,
             "category": "사회"
           }
         ]
@@ -27156,11 +26871,11 @@
       }
     ],
     "id": "donga:134609944",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 5,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -27238,6 +26953,29 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 1,
+            "category": "사회"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 1,
+            "category": "사회"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -27283,11 +27021,11 @@
       }
     ],
     "id": "donga:134604697",
-    "collectedAt": "2026-09-04T21:56:01.422Z",
+    "collectedAt": "2026-09-04T23:34:54.242Z",
     "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 5,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -27344,6 +27082,22 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 3,
+            "category": "종합"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -27382,11 +27136,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609044436H",
-    "collectedAt": "2026-09-04T21:56:01.423Z",
+    "collectedAt": "2026-09-04T23:34:54.243Z",
     "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 5,
+    "consecutiveCount": 5,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -27456,400 +27210,20 @@
             "category": "사회"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609042000001",
-    "url": "https://www.khan.co.kr/article/202609042000001",
-    "title": "[단독]김승원, 판사 시절 음주운전자 ‘징역 4개월&#8594;벌금 500만원’ 감형",
-    "summary": "김승원 법무부 장관 후보자가 배석판사로 참여한 재판부가 음주운전으로 실형을 선고받은 이를 벌금형으로 감형한 것으로 파악됐다. 김 후보자 본인도 음주운전으로 벌금형을 선고받은 전력이 있다.4일 경향신문 취재 결과 전주지법 형사1부는 2003년 7월 도로교통법 위반(음주운전) 혐의를 받는 ...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 16,
-        "category": null
-      }
-    ],
-    "id": "khan:202609042000001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 1,
-            "category": null
-          }
-        ]
       },
       {
-        "observedAt": "2026-09-04T17:15:47.728Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
         },
         "placements": [
           {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 10,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 9,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 16,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609042013001",
-    "url": "https://www.khan.co.kr/article/202609042013001",
-    "title": "조국, 친명계 직격 “충정에 공격”…호르무즈 파병엔 “헌법상 침략전쟁 부인”",
-    "summary": "조국 조국혁신당 혁신정책연구원장이 4일 “충정으로 객관적 상황과 대처방안을 제시하니, 거두절미하고 ‘배은망덕’ 또는 ‘봉창 두드린다’며 공격한다”고 밝혔다. 조 원장은 정부의 호르무즈 해협 파병 논란에 대해서도 헌법을 인용하며 사실상 반대한다는 뜻을 밝혔다.조 원장은 4일 페이스북에 이...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 8,
-        "category": null
-      }
-    ],
-    "id": "khan:202609042013001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 7,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 8,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/news/2026/politics/article/6849632_36911.html",
-    "url": "https://imnews.imbc.com/news/2026/politics/article/6849632_36911.html",
-    "title": "용혜인 성평등가족부 장관 후보자, 재산 4억 7000만 신고",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 3,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/news/2026/politics/article/6849632_36911.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "mbc",
-    "sourceId": "imnews.imbc.com/news/2026/society/article/6849587_36918.html",
-    "url": "https://imnews.imbc.com/news/2026/society/article/6849587_36918.html",
-    "title": "공수처, '주점 접대' 지귀연 부장판사 불구속 기소",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "mbc-portal",
-        "label": "MBC 많이 본 뉴스 · 포털",
-        "rankingType": "포털",
-        "rank": 5,
-        "category": null
-      }
-    ],
-    "id": "mbc:imnews.imbc.com/news/2026/society/article/6849587_36918.html",
-    "collectedAt": "2026-09-04T21:56:01.430Z",
-    "firstSeenAt": "2026-09-04T13:52:04.264Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 4,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T13:52:04.264Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "mbc-portal",
-            "label": "MBC 많이 본 뉴스 · 포털",
-            "rankingType": "포털",
-            "rank": 5,
-            "category": null
+            "collectorId": "hankyung-society-most-read",
+            "label": "사회 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 4,
+            "category": "사회"
           }
         ]
       }
@@ -27872,16 +27246,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 6,
+        "rank": 20,
         "category": null
       }
     ],
     "id": "khan:202609041122001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T05:16:08.551Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 4,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 5,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -27951,44 +27325,9 @@
             "category": null
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609032206005",
-    "url": "https://www.khan.co.kr/article/202609032206005",
-    "title": "'약물 운전' 타이거 우즈, 5년간 운전대 못 잡는다···그런데 골프 카트는?",
-    "summary": "‘약물 운전’ 혐의로 기소된 타이거 우즈(미국·사진)가 검찰과 더 낮은 형량의 혐의를 적용받는 ‘플리바겐’(사법거래)에 합의했다. 이에 따라 우즈는 5년간 운전을 할 수 없게 됐다. 다만 운전 금지 대상에 골프 카트까지 포함되는지는 아직 불분명하다.3일 AP통신과 CNN 등 외신에 따르...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
+      },
       {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 15,
-        "category": null
-      }
-    ],
-    "id": "khan:202609032206005",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-03T14:08:11.663Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 8,
-    "consecutiveCount": 3,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-03T14:08:11.663Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -27998,231 +27337,8 @@
             "collectorId": "khan-realtime-most-viewed",
             "label": "경향 지금 많이 보는",
             "rankingType": "지금 많이 보는",
-            "rank": 15,
+            "rank": 20,
             "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T17:55:46.690Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 16,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T20:17:53.965Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 7,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T22:43:31.190Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 11,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T00:34:14.854Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 16,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 14,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 19,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 15,
-            "category": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "donga",
-    "sourceId": "134607094",
-    "url": "https://www.donga.com/news/Economy/article/all/20260904/134607094/1",
-    "title": "통폐합 공공기관장 교체 불가피…尹정부 인사 임기 못채울 듯",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "donga-popular",
-        "label": "동아 실시간 인기순",
-        "rankingType": "인기순",
-        "rank": 5,
-        "category": "경제"
-      },
-      {
-        "collectorId": "donga-share",
-        "label": "동아 실시간 공유순",
-        "rankingType": "공유순",
-        "rank": 5,
-        "category": "경제"
-      }
-    ],
-    "id": "donga:134607094",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
-    "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 4,
-            "category": "경제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 4,
-            "category": "경제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T19:43:35.283Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 4,
-            "category": "경제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 4,
-            "category": "경제"
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "donga-popular",
-            "label": "동아 실시간 인기순",
-            "rankingType": "인기순",
-            "rank": 5,
-            "category": "경제"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 5,
-            "category": "경제"
           }
         ]
       }
@@ -28250,11 +27366,11 @@
       }
     ],
     "id": "hankyung:2026090450701",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.244Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -28308,6 +27424,22 @@
             "category": "테크"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-tech-most-read",
+            "label": "테크 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 2,
+            "category": "테크"
+          }
+        ]
       }
     ]
   },
@@ -28333,11 +27465,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609044266g",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.244Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -28391,6 +27523,22 @@
             "category": "테크"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-tech-most-read",
+            "label": "테크 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 5,
+            "category": "테크"
+          }
+        ]
       }
     ]
   },
@@ -28411,16 +27559,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 3,
+        "rank": 14,
         "category": null
       }
     ],
     "id": "khan:202609042345001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -28474,60 +27622,9 @@
             "category": null
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609041712001",
-    "url": "https://www.khan.co.kr/article/202609041712001",
-    "title": "강신철 국방장관 후보자, 서초구 아파트 등 11억2000만원 재산 신고",
-    "summary": "강신철 국방부 장관 후보자가 본인과 배우자, 자녀 명의의 부동산과 예금 등을 종합해 총 11억2762만원의 재산을 보유하고 있는 것으로 나타났다.4일 국회에 제출된 강 후보자의 인사청문요청안에 따르면, 강 후보자 본인은 10억1355만원의 재산을 신고했다. 서울 서초구 우면동 아파트 1...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 17,
-        "category": null
-      }
-    ],
-    "id": "khan:202609041712001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T17:15:47.728Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 19,
-            "category": null
-          }
-        ]
       },
       {
-        "observedAt": "2026-09-04T19:43:35.283Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -28537,23 +27634,7 @@
             "collectorId": "khan-realtime-most-viewed",
             "label": "경향 지금 많이 보는",
             "rankingType": "지금 많이 보는",
-            "rank": 13,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 17,
+            "rank": 14,
             "category": null
           }
         ]
@@ -28569,8 +27650,8 @@
     "publishedAt": "2026-09-04T11:54:53.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 1353,
-      "comments": 1099
+      "likes": 1415,
+      "comments": 1140
     },
     "placements": [
       {
@@ -28582,15 +27663,15 @@
       }
     ],
     "id": "hackernews:49563355",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
-      "likes": 170,
-      "comments": 136
+      "likes": 62,
+      "comments": 41
     },
     "history": [
       {
@@ -28640,6 +27721,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 1415,
+          "comments": 1140
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 3,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -28652,8 +27749,8 @@
     "publishedAt": "2026-09-04T06:47:51.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 520,
-      "comments": 228
+      "likes": 527,
+      "comments": 231
     },
     "placements": [
       {
@@ -28665,15 +27762,15 @@
       }
     ],
     "id": "hackernews:49561320",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
-      "likes": 10,
-      "comments": 12
+      "likes": 7,
+      "comments": 3
     },
     "history": [
       {
@@ -28723,6 +27820,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 527,
+          "comments": 231
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 7,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -28735,8 +27848,8 @@
     "publishedAt": "2026-09-03T01:11:22.000Z",
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 455,
-      "comments": 176
+      "likes": 456,
+      "comments": 177
     },
     "placements": [
       {
@@ -28748,15 +27861,15 @@
       }
     ],
     "id": "hackernews:49544762",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
-      "likes": 2,
-      "comments": 3
+      "likes": 1,
+      "comments": 1
     },
     "history": [
       {
@@ -28806,6 +27919,22 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 456,
+          "comments": 177
+        },
+        "placements": [
+          {
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 8,
+            "category": "해외 · 기술/스타트업"
+          }
+        ]
       }
     ]
   },
@@ -28826,19 +27955,19 @@
         "collectorId": "hackernews-best",
         "label": "Hacker News Best Stories",
         "rankingType": "Best Stories",
-        "rank": 9,
+        "rank": 10,
         "category": "해외 · 기술/스타트업"
       }
     ],
     "id": "hackernews:49546753",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
     "firstSeenAt": "2026-09-04T17:15:47.728Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 3,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 4,
+    "consecutiveCount": 4,
     "isCurrent": true,
     "delta": {
-      "likes": 2,
+      "likes": 0,
       "comments": 0
     },
     "history": [
@@ -28889,87 +28018,20 @@
             "category": "해외 · 기술/스타트업"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609041444001",
-    "url": "https://www.khan.co.kr/article/202609041444001",
-    "title": "1800명 근무할 ‘한국발전’ 본사는 어디에…지자체 유치전 속 정부는 “검토 중”",
-    "summary": "정부가 발전 5개 공기업을 하나로 합친 ‘한국발전’을 내년 10월 출범시키고, 통합본사는 새로 짓기로 했다. 통합본사에는 약 1800명이 근무할 예정으로, 각각 약 500명을 수용하는 기존 발전 5사 본사 건물로는 공간상 한계가 있어 새로운 본사 건물 구축이 필요할 것으로 예상되기 떄문...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 20,
-        "category": null
-      }
-    ],
-    "id": "khan:202609041444001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-04T09:46:57.975Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 3,
-    "consecutiveCount": 2,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 20,
-            "category": null
-          }
-        ]
       },
       {
-        "observedAt": "2026-09-04T19:43:35.283Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
-          "likes": null,
-          "comments": null
+          "likes": 399,
+          "comments": 135
         },
         "placements": [
           {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 17,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 20,
-            "category": null
+            "collectorId": "hackernews-best",
+            "label": "Hacker News Best Stories",
+            "rankingType": "Best Stories",
+            "rank": 10,
+            "category": "해외 · 기술/스타트업"
           }
         ]
       }
@@ -28992,16 +28054,16 @@
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 3,
+        "rank": 2,
         "category": "종합"
       }
     ],
     "id": "donga:134608935",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T19:43:35.283Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 2,
-    "consecutiveCount": 2,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 3,
+    "consecutiveCount": 3,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29039,6 +28101,22 @@
             "category": "종합"
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 2,
+            "category": "종합"
+          }
+        ]
       }
     ]
   },
@@ -29071,11 +28149,11 @@
       }
     ],
     "id": "donga:134609721",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T19:43:35.283Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 2,
-    "consecutiveCount": 2,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 3,
+    "consecutiveCount": 3,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29107,6 +28185,29 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 1,
+            "category": "국제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 1,
+            "category": "국제"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -29159,11 +28260,11 @@
       }
     ],
     "id": "donga:134609017",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T19:43:35.283Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 2,
-    "consecutiveCount": 2,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 3,
+    "consecutiveCount": 3,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29195,6 +28296,29 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 4,
+            "category": "경제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 4,
+            "category": "경제"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -29247,11 +28371,11 @@
       }
     ],
     "id": "donga:134609953",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T19:43:35.283Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 2,
-    "consecutiveCount": 2,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 3,
+    "consecutiveCount": 3,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29283,6 +28407,29 @@
       },
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 2,
+            "category": "국제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 2,
+            "category": "국제"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -29320,26 +28467,26 @@
     },
     "placements": [
       {
+        "collectorId": "donga-popular",
+        "label": "동아 실시간 인기순",
+        "rankingType": "인기순",
+        "rank": 4,
+        "category": "국제"
+      },
+      {
         "collectorId": "donga-share",
         "label": "동아 실시간 공유순",
         "rankingType": "공유순",
         "rank": 4,
         "category": "국제"
-      },
-      {
-        "collectorId": "donga-popular",
-        "label": "동아 실시간 인기순",
-        "rankingType": "인기순",
-        "rank": 5,
-        "category": "국제"
       }
     ],
     "id": "donga:134610042",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T19:43:35.283Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 2,
-    "consecutiveCount": 2,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 3,
+    "consecutiveCount": 3,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29391,311 +28538,27 @@
             "category": "국제"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "khan",
-    "sourceId": "202609021103001",
-    "url": "https://www.khan.co.kr/article/202609021103001",
-    "title": "“삼전·닉스가 아니네”···‘1인당 1억8400만원’ 평균급여 1위 기업은 어디?",
-    "summary": "올해 상반기 국내 500대 기업의 1인당 평균급여가 5500만원으로 조사됐다. 1인당 평균급여가 가장 높은 곳은 한국금융지주였고, 가장 낮은 곳은 이랜드월드였다. 두 회사의 평균 급여 차이는 1억6700만원에 달했다.2일 기업데이터연구소 CEO스코어는 500대 기업을 대상으로 지난해와 ...",
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "khan-realtime-most-viewed",
-        "label": "경향 지금 많이 보는",
-        "rankingType": "지금 많이 보는",
-        "rank": 18,
-        "category": null
-      }
-    ],
-    "id": "khan:202609021103001",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
-    "firstSeenAt": "2026-09-02T05:14:15.213Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 17,
-    "consecutiveCount": 1,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-02T05:14:15.213Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 1,
-            "category": null
-          }
-        ]
       },
       {
-        "observedAt": "2026-09-02T09:46:17.400Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
         },
         "placements": [
           {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-02T13:57:02.854Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 4,
+            "category": "국제"
+          },
           {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 2,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-02T17:33:06.239Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-02T20:15:59.886Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 1,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-02T22:43:43.559Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 3,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T00:50:42.685Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 7,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T05:19:44.280Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 12,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T09:58:23.953Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 11,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T14:08:11.663Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 7,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T17:55:46.690Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 8,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T20:17:53.965Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 6,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-03T22:43:31.190Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 5,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T00:34:14.854Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 10,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T05:16:08.551Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 14,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T09:46:57.975Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 17,
-            "category": null
-          }
-        ]
-      },
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
-        "metrics": {
-          "likes": null,
-          "comments": null
-        },
-        "placements": [
-          {
-            "collectorId": "khan-realtime-most-viewed",
-            "label": "경향 지금 많이 보는",
-            "rankingType": "지금 많이 보는",
-            "rank": 18,
-            "category": null
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 4,
+            "category": "국제"
           }
         ]
       }
@@ -29718,16 +28581,16 @@
         "collectorId": "donga-popular",
         "label": "동아 실시간 인기순",
         "rankingType": "인기순",
-        "rank": 2,
+        "rank": 1,
         "category": "종합"
       }
     ],
     "id": "donga:134610206",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 2,
+    "consecutiveCount": 2,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29746,6 +28609,22 @@
             "label": "동아 실시간 인기순",
             "rankingType": "인기순",
             "rank": 2,
+            "category": "종합"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 1,
             "category": "종합"
           }
         ]
@@ -29774,11 +28653,11 @@
       }
     ],
     "id": "donga:134609958",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
     "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 2,
+    "consecutiveCount": 2,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29800,51 +28679,9 @@
             "category": "종합"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "donga",
-    "sourceId": "134610126",
-    "url": "https://www.donga.com/news/Culture/article/all/20260904/134610126/2",
-    "title": "“동료들에 나눠준 청첩장, 당일 쓰레기통에” 결혼 앞둔 직장인 ‘씁쓸’",
-    "summary": null,
-    "publishedAt": null,
-    "publishedAtLabel": null,
-    "metrics": {
-      "likes": null,
-      "comments": null
-    },
-    "placements": [
-      {
-        "collectorId": "donga-popular",
-        "label": "동아 실시간 인기순",
-        "rankingType": "인기순",
-        "rank": 3,
-        "category": "사회"
       },
       {
-        "collectorId": "donga-share",
-        "label": "동아 실시간 공유순",
-        "rankingType": "공유순",
-        "rank": 3,
-        "category": "사회"
-      }
-    ],
-    "id": "donga:134610126",
-    "collectedAt": "2026-09-04T21:56:01.421Z",
-    "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
-    "isCurrent": true,
-    "delta": {
-      "likes": null,
-      "comments": null
-    },
-    "history": [
-      {
-        "observedAt": "2026-09-04T21:56:04.967Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -29854,15 +28691,8 @@
             "collectorId": "donga-popular",
             "label": "동아 실시간 인기순",
             "rankingType": "인기순",
-            "rank": 3,
-            "category": "사회"
-          },
-          {
-            "collectorId": "donga-share",
-            "label": "동아 실시간 공유순",
-            "rankingType": "공유순",
-            "rank": 3,
-            "category": "사회"
+            "rank": 5,
+            "category": "종합"
           }
         ]
       }
@@ -29890,11 +28720,11 @@
       }
     ],
     "id": "hankyung:www.hankyung.com/article/202609032751H",
-    "collectedAt": "2026-09-04T21:56:01.423Z",
+    "collectedAt": "2026-09-04T23:34:54.243Z",
     "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 2,
+    "consecutiveCount": 2,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29903,6 +28733,22 @@
     "history": [
       {
         "observedAt": "2026-09-04T21:56:04.967Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "hankyung-society-most-read",
+            "label": "사회 많이 본 뉴스",
+            "rankingType": "많이 본 뉴스",
+            "rank": 3,
+            "category": "사회"
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
           "likes": null,
           "comments": null
@@ -29936,16 +28782,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 11,
+        "rank": 9,
         "category": null
       }
     ],
     "id": "khan:202609050600051",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 2,
+    "consecutiveCount": 2,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -29964,6 +28810,22 @@
             "label": "경향 지금 많이 보는",
             "rankingType": "지금 많이 보는",
             "rank": 11,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 9,
             "category": null
           }
         ]
@@ -29987,16 +28849,16 @@
         "collectorId": "khan-realtime-most-viewed",
         "label": "경향 지금 많이 보는",
         "rankingType": "지금 많이 보는",
-        "rank": 19,
+        "rank": 17,
         "category": null
       }
     ],
     "id": "khan:202609041508011",
-    "collectedAt": "2026-09-04T21:56:01.425Z",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
     "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
-    "seenCount": 1,
-    "consecutiveCount": 1,
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 2,
+    "consecutiveCount": 2,
     "isCurrent": true,
     "delta": {
       "likes": null,
@@ -30018,34 +28880,204 @@
             "category": null
           }
         ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 17,
+            "category": null
+          }
+        ]
       }
     ]
   },
   {
-    "source": "hackernews",
-    "sourceId": "49551096",
-    "url": "https://news.ycombinator.com/item?id=49551096",
-    "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
-    "summary": null,
-    "publishedAt": "2026-09-03T15:07:01.000Z",
+    "source": "khan",
+    "sourceId": "202609040600061",
+    "url": "https://www.khan.co.kr/article/202609040600061",
+    "title": "[책과 삶]교회 떠나, 신천지 밟고, 108배로…목사 딸의 ‘종교 해방일지’",
+    "summary": "목사 딸의 백팔배이정은 지음 | 온다프레스 | 272쪽 | 1만6000원요지부동의 부모를 어떻게 대해야 할까. 그 부모가 성경을 문자 그대로 실천하려는 근본주의적 개신교 성직자이며, 자녀들에게조차 신앙에 대해서는 어떠한 타협도 없다면 어떻게 할까. 아이의 마음을 세심하게 헤아리는 요즘 ...",
+    "publishedAt": null,
     "publishedAtLabel": null,
     "metrics": {
-      "likes": 392,
-      "comments": 671
+      "likes": null,
+      "comments": null
     },
     "placements": [
       {
-        "collectorId": "hackernews-best",
-        "label": "Hacker News Best Stories",
-        "rankingType": "Best Stories",
-        "rank": 10,
-        "category": "해외 · 기술/스타트업"
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 7,
+        "category": null
       }
     ],
-    "id": "hackernews:49551096",
-    "collectedAt": "2026-09-04T21:56:01.432Z",
-    "firstSeenAt": "2026-09-04T21:56:04.967Z",
-    "lastSeenAt": "2026-09-04T21:56:04.967Z",
+    "id": "khan:202609040600061",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-03T22:43:31.190Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 7,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-03T22:43:31.190Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 3,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T00:34:14.854Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 2,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T05:16:08.551Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 11,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T09:46:57.975Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 19,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T13:52:04.264Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 16,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T19:43:35.283Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 14,
+            "category": null
+          }
+        ]
+      },
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 7,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "donga",
+    "sourceId": "134609689",
+    "url": "https://www.donga.com/news/Politics/article/all/20260904/134609689/2",
+    "title": "빚투 말라는 정부, 10억아파트 5.3억 영끌한 국토 후보자",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "donga-popular",
+        "label": "동아 실시간 인기순",
+        "rankingType": "인기순",
+        "rank": 3,
+        "category": "경제"
+      },
+      {
+        "collectorId": "donga-share",
+        "label": "동아 실시간 공유순",
+        "rankingType": "공유순",
+        "rank": 3,
+        "category": "경제"
+      }
+    ],
+    "id": "donga:134609689",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
     "seenCount": 1,
     "consecutiveCount": 1,
     "isCurrent": true,
@@ -30055,17 +29087,882 @@
     },
     "history": [
       {
-        "observedAt": "2026-09-04T21:56:04.967Z",
+        "observedAt": "2026-09-04T23:34:57.525Z",
         "metrics": {
-          "likes": 392,
-          "comments": 671
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 3,
+            "category": "경제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 3,
+            "category": "경제"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "donga",
+    "sourceId": "134610350",
+    "url": "https://www.donga.com/news/Inter/article/all/20260905/134610350/1",
+    "title": "트럼프, “한국 천궁-II 우크라 판매 압박해야” 칼럼 공유",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "donga-popular",
+        "label": "동아 실시간 인기순",
+        "rankingType": "인기순",
+        "rank": 3,
+        "category": "국제"
+      },
+      {
+        "collectorId": "donga-share",
+        "label": "동아 실시간 공유순",
+        "rankingType": "공유순",
+        "rank": 3,
+        "category": "국제"
+      }
+    ],
+    "id": "donga:134610350",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 3,
+            "category": "국제"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 3,
+            "category": "국제"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "donga",
+    "sourceId": "134608635",
+    "url": "https://www.donga.com/news/Society/article/all/20260904/134608635/2",
+    "title": "방 내준 어르신, 말벗 된 대학생… 남과 사는 ‘60만 식구’",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "donga-popular",
+        "label": "동아 실시간 인기순",
+        "rankingType": "인기순",
+        "rank": 4,
+        "category": "사회"
+      },
+      {
+        "collectorId": "donga-share",
+        "label": "동아 실시간 공유순",
+        "rankingType": "공유순",
+        "rank": 4,
+        "category": "사회"
+      }
+    ],
+    "id": "donga:134608635",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 4,
+            "category": "사회"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 4,
+            "category": "사회"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "donga",
+    "sourceId": "134609687",
+    "url": "https://www.donga.com/news/Society/article/all/20260904/134609687/2",
+    "title": "[단독]김성수, 15세 성폭행범 ‘합의금 공탁’ 이유로 2심서 감형",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "donga-popular",
+        "label": "동아 실시간 인기순",
+        "rankingType": "인기순",
+        "rank": 5,
+        "category": "사회"
+      },
+      {
+        "collectorId": "donga-share",
+        "label": "동아 실시간 공유순",
+        "rankingType": "공유순",
+        "rank": 5,
+        "category": "사회"
+      }
+    ],
+    "id": "donga:134609687",
+    "collectedAt": "2026-09-04T23:34:54.241Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "donga-popular",
+            "label": "동아 실시간 인기순",
+            "rankingType": "인기순",
+            "rank": 5,
+            "category": "사회"
+          },
+          {
+            "collectorId": "donga-share",
+            "label": "동아 실시간 공유순",
+            "rankingType": "공유순",
+            "rank": 5,
+            "category": "사회"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609050800011",
+    "url": "https://www.khan.co.kr/article/202609050800011",
+    "title": "[오마주]“일출 보면 감동? 꼴도 보기 싫다!”···MZ가 산에 오르면 벌어지는 일",
+    "summary": "‘오마주’는 주말에 볼 만한 온라인동영상서비스(OTT) 콘텐츠를 추천하는 코너입니다. 매주 토요일 오전 찾아옵니다.운동 좋아하시나요? (아니요). 등산 좋아하시나요? (아니요, 산책은 좋아합니다).괄호에 자신 있게 ‘네’라고 대답한 분도 많으시겠죠. 애석하게도 저는 아닙니다. 오늘 소개...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 2,
+        "category": null
+      }
+    ],
+    "id": "khan:202609050800011",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 2,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609050800001",
+    "url": "https://www.khan.co.kr/article/202609050800001",
+    "title": "변비만 문제가 아니다…‘섬유질 부족’ 몸이 보내는 경고음은?",
+    "summary": "섬유질이 부족하면 가장 먼저 나타나는 신호로 변비를 떠올리기 쉽다. 하지만 섬유질은 배변을 원활하게 하는 것 외에도 혈당과 콜레스테롤 조절, 포만감 유지, 장내 미생물 균형 등에 관여한다. 평소 배변이 불규칙하거나 식사 후 금세 배가 고프고 오후만 되면 기운이 떨어진다면 식단에 섬유질이...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 4,
+        "category": null
+      }
+    ],
+    "id": "khan:202609050800001",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 4,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609050730001",
+    "url": "https://www.khan.co.kr/article/202609050730001",
+    "title": "“매일 샤워하는데…” 베갯잇은 왜 누래질까? 얼룩 원인 따로 있다",
+    "summary": "매일 밤 깨끗하게 씻고 잠자리에 드는데도 흰 베갯잇은 어느 순간 누렇게 변한다. 특히 얼굴이 닿는 가운데 부분이나 목 주변에 노란 얼룩이 집중된다. 세탁을 제대로 하지 않아서일까 싶지만, 베갯잇의 누런 얼룩은 단순한 세탁 불량만으로 생기는 것이 아니다.섬유 전문가들은 피지와 땀, 스킨케...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 8,
+        "category": null
+      }
+    ],
+    "id": "khan:202609050730001",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 8,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609050600001",
+    "url": "https://www.khan.co.kr/article/202609050600001",
+    "title": "[위근우의 리플레이]최대의 위기 ‘나 혼자 산다’, 관찰 예능이 진정성의 이름으로 시청자를 기만할 때 벌어지는 일",
+    "summary": "※이 칼럼은 MBC &lt;나 혼자 산다&gt; 제작진의 추가 입장 표명 전날인 9월3일자 경향신문 지면에 게재됐습니다.가불기. 일대일 격투 게임에서 방어할 수 없는 가드 불능 기술을 이르는 줄임말이다. 말 그대로 막을 수 없는 기술이기 때문에 피해를 입지 않으려면 오직 회피하는 수밖에...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 11,
+        "category": null
+      }
+    ],
+    "id": "khan:202609050600001",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 11,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609050700011",
+    "url": "https://www.khan.co.kr/article/202609050700011",
+    "title": "제주 ‘부 경장 사건’이 남긴 질문들···곳곳에 드러난 실종수사 허점 어떻게 매울까",
+    "summary": "제주에서 실종 신고를 허위 종결한 혐의(직무유기·공전자기록 위작·행사 등)를 받는 부모 경장이 지난 1일 구속 상태로 검찰에 넘겨졌습니다. 부 경장이 허위로 종결시킨 실종자였던 장모씨가 실종 104일만에 숨진 채 발견됐지만, 경찰은 장씨 사인을 두고도 오락가락하는 모양새입니다.김종철 경...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 18,
+        "category": null
+      }
+    ],
+    "id": "khan:202609050700011",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 18,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "khan",
+    "sourceId": "202609031136011",
+    "url": "https://www.khan.co.kr/article/202609031136011",
+    "title": "단풍부터 캠핑·축제까지···경남 가을 명소 18곳 선정",
+    "summary": "경남도와 18개 시군이 추석 연휴와 가을철을 맞아 방문하기 좋은 도내 명소 18곳을 3일 발표했다.단풍 명소로는 3개 시군이 이름을 올렸다. 사천시는 1500년 역사의 사찰을 품은 다솔사를, 함안군은 저수지 출렁다리 산책로가 있는 입곡군립공원을, 함양군은 꽃무릇과 단풍을 함께 조망할 수...",
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "khan-realtime-most-viewed",
+        "label": "경향 지금 많이 보는",
+        "rankingType": "지금 많이 보는",
+        "rank": 19,
+        "category": null
+      }
+    ],
+    "id": "khan:202609031136011",
+    "collectedAt": "2026-09-04T23:34:54.245Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "khan-realtime-most-viewed",
+            "label": "경향 지금 많이 보는",
+            "rankingType": "지금 많이 보는",
+            "rank": 19,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/news/2026/world/article/6849744_36925.html",
+    "url": "https://imnews.imbc.com/news/2026/world/article/6849744_36925.html",
+    "title": "네팔군, 한국 구호대 한국인 9명 실종 지역 도보수색 불허",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 1,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/news/2026/world/article/6849744_36925.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 1,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849702_37004.html",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849702_37004.html",
+    "title": "삼성·SK하이닉스 찍어 \"반도체 관세\" 협박‥파병이 협상카드?",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 2,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849702_37004.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 2,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849721_37004.html",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849721_37004.html",
+    "title": "초등 1·2학년도 6교시 뒤 오후 3시 하교?‥찬반 팽팽",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 3,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849721_37004.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 3,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849715_37004.html",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849715_37004.html",
+    "title": "\"자고 있네\" 그냥 간 경찰‥다음 날 의식불명",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 4,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849715_37004.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 4,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849717_37004.html",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849717_37004.html",
+    "title": "제주 실종 여성 유족 \"부 경장 파면하라\"‥경찰, 실종사건 전담조직 설치",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 5,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849717_37004.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 5,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "mbc",
+    "sourceId": "imnews.imbc.com/replay/2026/nwdesk/article/6849720_37004.html",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6849720_37004.html",
+    "title": "초대 중수청장 후보에 문홍주·이윤제 전 특검보 등 4명 올라",
+    "summary": null,
+    "publishedAt": null,
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": null,
+      "comments": null
+    },
+    "placements": [
+      {
+        "collectorId": "mbc-portal",
+        "label": "MBC 많이 본 뉴스 · 포털",
+        "rankingType": "포털",
+        "rank": 6,
+        "category": null
+      }
+    ],
+    "id": "mbc:imnews.imbc.com/replay/2026/nwdesk/article/6849720_37004.html",
+    "collectedAt": "2026-09-04T23:34:54.250Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": null,
+          "comments": null
+        },
+        "placements": [
+          {
+            "collectorId": "mbc-portal",
+            "label": "MBC 많이 본 뉴스 · 포털",
+            "rankingType": "포털",
+            "rank": 6,
+            "category": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "hackernews",
+    "sourceId": "49568506",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "title": "Formalizing Fermat's Last Theorem",
+    "summary": null,
+    "publishedAt": "2026-09-04T18:42:56.000Z",
+    "publishedAtLabel": null,
+    "metrics": {
+      "likes": 422,
+      "comments": 273
+    },
+    "placements": [
+      {
+        "collectorId": "hackernews-best",
+        "label": "Hacker News Best Stories",
+        "rankingType": "Best Stories",
+        "rank": 9,
+        "category": "해외 · 기술/스타트업"
+      }
+    ],
+    "id": "hackernews:49568506",
+    "collectedAt": "2026-09-04T23:34:54.251Z",
+    "firstSeenAt": "2026-09-04T23:34:57.525Z",
+    "lastSeenAt": "2026-09-04T23:34:57.525Z",
+    "seenCount": 1,
+    "consecutiveCount": 1,
+    "isCurrent": true,
+    "delta": {
+      "likes": null,
+      "comments": null
+    },
+    "history": [
+      {
+        "observedAt": "2026-09-04T23:34:57.525Z",
+        "metrics": {
+          "likes": 422,
+          "comments": 273
         },
         "placements": [
           {
             "collectorId": "hackernews-best",
             "label": "Hacker News Best Stories",
             "rankingType": "Best Stories",
-            "rank": 10,
+            "rank": 9,
             "category": "해외 · 기술/스타트업"
           }
         ]
