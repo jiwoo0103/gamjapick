@@ -26,7 +26,7 @@ GamjaPick은 사람이 카드뉴스 주제를 찾고, 한 장의 4:5 카드뉴�
 
 `data/current.json`에는 최신 목록의 항목, `data/recent.json`에는 최근 48시간의 고유 항목을 저장한다. 각 항목은 `firstSeenAt`, `lastSeenAt`, `seenCount`, `consecutiveCount`, `isCurrent`, 현재 metrics, delta, 최대 48개 history를 가진다. 동일 원문이 한 source의 복수 목록에 있으면 `placements`에 노출 위치를 병합한다.
 
-GitHub Actions는 30분 cron과 `workflow_dispatch`로 `npm run collect`를 실행하고, 변경된 JSON만 자동 커밋한다. Topic Radar는 collector를 직접 실행하지 않으며 생성된 JSON만 표시한다.
+GitHub Actions 자동 수집 cron은 운영 중단 상태다. 필요할 때 `workflow_dispatch`로 `npm run collect`를 수동 실행하며, 변경된 JSON만 자동 커밋한다. Topic Radar는 collector를 직접 실행하지 않으며 생성된 JSON만 표시한다.
 
 ### 대시보드 완료 기준
 
